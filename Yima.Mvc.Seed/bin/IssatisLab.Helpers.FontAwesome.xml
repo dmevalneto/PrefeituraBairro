@@ -1,0 +1,3048 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IssatisLab.Helpers.FontAwesome</name>
+    </assembly>
+    <members>
+        <member name="T:IssatisLab.Helpers.FontAwesome.FontAwesomeBase">
+            <summary>
+            Represents font awesome.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.FontAwesome.FontAwesomeBase.#ctor(IssatisLab.Helpers.FontAwesome.FontAwesomeType,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the component with the specified HTML helper.
+            </summary>
+            <param name="type">The type of the font awesome.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.FontAwesome.FontAwesomeBase.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.FontAwesome.FontAwesomeBase.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.FontAwesome.FontAwesomeType">
+            <summary>
+            Represents font awesome icons.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.None">
+            <summary>
+            None font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Adjust">
+            <summary>
+            Adjust font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Adn">
+            <summary>
+            Adn font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AlignCenter">
+            <summary>
+            Align center font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AlignJustify">
+            <summary>
+            Align justify font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AlignLeft">
+            <summary>
+            Align left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AlignRight">
+            <summary>
+            Align right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ambulance">
+            <summary>
+            Ambulance font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Anchor">
+            <summary>
+            Anchor font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Android">
+            <summary>
+            Android font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Angellist">
+            <summary>
+            Angellist font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AngleDoubleDown">
+            <summary>
+            Angle double down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AngleDoubleLeft">
+            <summary>
+            Angle double left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AngleDoubleRight">
+            <summary>
+            Angle double right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AngleDoubleUp">
+            <summary>
+            Angle double up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AngleDown">
+            <summary>
+            Angle down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AngleLeft">
+            <summary>
+            Angle left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AngleRight">
+            <summary>
+            Angle right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AngleUp">
+            <summary>
+            Angle up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Apple">
+            <summary>
+            Apple font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Archive">
+            <summary>
+            Archive font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.AreaChart">
+            <summary>
+            Area chart font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowCircleDown">
+            <summary>
+            Arrow circle down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowCircleLeft">
+            <summary>
+            Arrow circle left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowCircleODown">
+            <summary>
+            Arrow circle o down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowCircleOLeft">
+            <summary>
+            Arrow circle o left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowCircleORight">
+            <summary>
+            Arrow circle o right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowCircleOUp">
+            <summary>
+            Arrow circle o up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowCircleRight">
+            <summary>
+            Arrow circle right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowCircleUp">
+            <summary>
+            Arrow circle up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowDown">
+            <summary>
+            Arrow down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowLeft">
+            <summary>
+            Arrow left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowRight">
+            <summary>
+            Arrow right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Arrows">
+            <summary>
+            Arrows font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowsAlt">
+            <summary>
+            Arrows alt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowsH">
+            <summary>
+            Arrows h font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowsV">
+            <summary>
+            Arrows v font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ArrowUp">
+            <summary>
+            Arrow up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Asterisk">
+            <summary>
+            Asterisk font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.At">
+            <summary>
+            At font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Automobile">
+            <summary>
+            Automobile font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Backward">
+            <summary>
+            Backward font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ban">
+            <summary>
+            Ban font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bank">
+            <summary>
+            Bank font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BarChart">
+            <summary>
+            Bar chart font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BarChartO">
+            <summary>
+            Bar chart o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Barcode">
+            <summary>
+            Barcode font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bars">
+            <summary>
+            Bars font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bed">
+            <summary>
+            Bed font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Beer">
+            <summary>
+            Beer font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Behance">
+            <summary>
+            Behance font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BehanceSquare">
+            <summary>
+            Behance square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bell">
+            <summary>
+            Bell font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BellO">
+            <summary>
+            Bell o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BellSlash">
+            <summary>
+            Bell slash font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BellSlashO">
+            <summary>
+            Bell slash o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bicycle">
+            <summary>
+            Bicycle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Binoculars">
+            <summary>
+            Binoculars font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BirthdayCake">
+            <summary>
+            Birthday cake font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bitbucket">
+            <summary>
+            Bitbucket font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BitbucketSquare">
+            <summary>
+            Bitbucket square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bitcoin">
+            <summary>
+            Bitcoin font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bold">
+            <summary>
+            Bold font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bolt">
+            <summary>
+            Bolt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bomb">
+            <summary>
+            Bomb font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Book">
+            <summary>
+            Book font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bookmark">
+            <summary>
+            Bookmark font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BookmarkO">
+            <summary>
+            Bookmark o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Briefcase">
+            <summary>
+            Briefcase font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Btc">
+            <summary>
+            Btc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bug">
+            <summary>
+            Bug font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Building">
+            <summary>
+            Building font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.BuildingO">
+            <summary>
+            Building o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bullhorn">
+            <summary>
+            Bullhorn font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bullseye">
+            <summary>
+            Bullseye font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Bus">
+            <summary>
+            Bus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Buysellads">
+            <summary>
+            Buysellads font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cab">
+            <summary>
+            Cab font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Calculator">
+            <summary>
+            Calculator font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Calendar">
+            <summary>
+            Calendar font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CalendarO">
+            <summary>
+            Calendar o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Camera">
+            <summary>
+            Camera font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CameraRetro">
+            <summary>
+            Camera retro font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Car">
+            <summary>
+            Car font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CaretDown">
+            <summary>
+            Caret down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CaretLeft">
+            <summary>
+            Caret left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CaretRight">
+            <summary>
+            Caret right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CaretSquareODown">
+            <summary>
+            Caret square o down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CaretSquareOLeft">
+            <summary>
+            Caret square o left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CaretSquareORight">
+            <summary>
+            Caret square o right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CaretSquareOUp">
+            <summary>
+            Caret square o up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CaretUp">
+            <summary>
+            Caret up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CartArrowDown">
+            <summary>
+            Cart arrow down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CartPlus">
+            <summary>
+            Cart plus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cc">
+            <summary>
+            Cc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CcAmex">
+            <summary>
+            Cc amex font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CcDiscover">
+            <summary>
+            Cc discover font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CcMastercard">
+            <summary>
+            Cc mastercard font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CcPaypal">
+            <summary>
+            Cc paypal font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CcStripe">
+            <summary>
+            Cc stripe font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CcVisa">
+            <summary>
+            Cc visa font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Certificate">
+            <summary>
+            Certificate font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Chain">
+            <summary>
+            Chain font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChainBroken">
+            <summary>
+            Chain broken font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Check">
+            <summary>
+            Check font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CheckCircle">
+            <summary>
+            Check circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CheckCircleO">
+            <summary>
+            Check circle o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CheckSquare">
+            <summary>
+            Check square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CheckSquareO">
+            <summary>
+            Check square o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChevronCircleDown">
+            <summary>
+            Chevron circle down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChevronCircleLeft">
+            <summary>
+            Chevron circle left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChevronCircleRight">
+            <summary>
+            Chevron circle right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChevronCircleUp">
+            <summary>
+            Chevron circle up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChevronDown">
+            <summary>
+            Chevron down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChevronLeft">
+            <summary>
+            Chevron left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChevronRight">
+            <summary>
+            Chevron right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ChevronUp">
+            <summary>
+            Chevron up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Child">
+            <summary>
+            Child font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Circle">
+            <summary>
+            Circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CircleO">
+            <summary>
+            Circle o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CircleONotch">
+            <summary>
+            Circle o notch font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CircleThin">
+            <summary>
+            Circle thin font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Clipboard">
+            <summary>
+            Clipboard font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ClockO">
+            <summary>
+            Clock o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Close">
+            <summary>
+            Close font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cloud">
+            <summary>
+            Cloud font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CloudDownload">
+            <summary>
+            Cloud download font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CloudUpload">
+            <summary>
+            Cloud upload font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cny">
+            <summary>
+            Cny font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Code">
+            <summary>
+            Code font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CodeFork">
+            <summary>
+            Code fork font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Codepen">
+            <summary>
+            Codepen font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Coffee">
+            <summary>
+            Coffee font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cog">
+            <summary>
+            Cog font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cogs">
+            <summary>
+            Cogs font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Columns">
+            <summary>
+            Columns font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Comment">
+            <summary>
+            Comment font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CommentO">
+            <summary>
+            Comment o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Comments">
+            <summary>
+            Comments font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CommentsO">
+            <summary>
+            Comments o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Compass">
+            <summary>
+            Compass font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Compress">
+            <summary>
+            Compress font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Connectdevelop">
+            <summary>
+            Connectdevelop font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Copy">
+            <summary>
+            Copy font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Copyright">
+            <summary>
+            Copyright font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.CreditCard">
+            <summary>
+            Credit card font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Crop">
+            <summary>
+            Crop font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Crosshairs">
+            <summary>
+            Crosshairs font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Css3">
+            <summary>
+            Css3 font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cube">
+            <summary>
+            Cube font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cubes">
+            <summary>
+            Cubes font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cut">
+            <summary>
+            Cut font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Cutlery">
+            <summary>
+            Cutlery font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Dashboard">
+            <summary>
+            Dashboard font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Dashcube">
+            <summary>
+            Dashcube font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Database">
+            <summary>
+            Database font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Dedent">
+            <summary>
+            Dedent font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Delicious">
+            <summary>
+            Delicious font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Desktop">
+            <summary>
+            Desktop font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Deviantart">
+            <summary>
+            Deviantart font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Diamond">
+            <summary>
+            Diamond font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Digg">
+            <summary>
+            Digg font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Dollar">
+            <summary>
+            Dollar font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.DotCircleO">
+            <summary>
+            Dot circle o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Download">
+            <summary>
+            Download font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Dribbble">
+            <summary>
+            Dribbble font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Dropbox">
+            <summary>
+            Dropbox font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Drupal">
+            <summary>
+            Drupal font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Edit">
+            <summary>
+            Edit font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Eject">
+            <summary>
+            Eject font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.EllipsisH">
+            <summary>
+            Ellipsis h font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.EllipsisV">
+            <summary>
+            Ellipsis v font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Empire">
+            <summary>
+            Empire font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Envelope">
+            <summary>
+            Envelope font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.EnvelopeO">
+            <summary>
+            Envelope o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.EnvelopeSquare">
+            <summary>
+            Envelope square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Eraser">
+            <summary>
+            Eraser font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Eur">
+            <summary>
+            Eur font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Euro">
+            <summary>
+            Euro font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Exchange">
+            <summary>
+            Exchange font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Exclamation">
+            <summary>
+            Exclamation font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ExclamationCircle">
+            <summary>
+            Exclamation circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ExclamationTriangle">
+            <summary>
+            Exclamation triangle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Expand">
+            <summary>
+            Expand font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ExternalLink">
+            <summary>
+            External link font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ExternalLinkSquare">
+            <summary>
+            External link square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Eye">
+            <summary>
+            Eye font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Eyedropper">
+            <summary>
+            Eyedropper font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.EyeSlash">
+            <summary>
+            Eye slash font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Facebook">
+            <summary>
+            Facebook font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FacebookF">
+            <summary>
+            Facebook f font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FacebookOfficial">
+            <summary>
+            Facebook official font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FacebookSquare">
+            <summary>
+            Facebook square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FastBackward">
+            <summary>
+            Fast backward font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FastForward">
+            <summary>
+            Fast forward font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Fax">
+            <summary>
+            Fax font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Female">
+            <summary>
+            Female font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FighterJet">
+            <summary>
+            Fighter jet font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.File">
+            <summary>
+            File font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileArchiveO">
+            <summary>
+            File archive o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileAudioO">
+            <summary>
+            File audio o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileCodeO">
+            <summary>
+            File code o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileExcelO">
+            <summary>
+            File excel o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileImageO">
+            <summary>
+            File image o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileMovieO">
+            <summary>
+            File movie o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileO">
+            <summary>
+            File o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FilePdfO">
+            <summary>
+            File pdf o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FilePhotoO">
+            <summary>
+            File photo o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FilePictureO">
+            <summary>
+            File picture o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FilePowerpointO">
+            <summary>
+            File powerpoint o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FilesO">
+            <summary>
+            Files o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileSoundO">
+            <summary>
+            File sound o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileText">
+            <summary>
+            File text font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileTextO">
+            <summary>
+            File text o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileVideoO">
+            <summary>
+            File video o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileWordO">
+            <summary>
+            File word o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FileZipO">
+            <summary>
+            File zip o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Film">
+            <summary>
+            Film font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Filter">
+            <summary>
+            Filter font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Fire">
+            <summary>
+            Fire font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FireExtinguisher">
+            <summary>
+            Fire extinguisher font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Flag">
+            <summary>
+            Flag font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FlagCheckered">
+            <summary>
+            Flag checkered font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FlagO">
+            <summary>
+            Flag o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Flash">
+            <summary>
+            Flash font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Flask">
+            <summary>
+            Flask font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Flickr">
+            <summary>
+            Flickr font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FloppyO">
+            <summary>
+            Floppy o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Folder">
+            <summary>
+            Folder font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FolderO">
+            <summary>
+            Folder o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FolderOpen">
+            <summary>
+            Folder open font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FolderOpenO">
+            <summary>
+            Folder open o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Font">
+            <summary>
+            Font font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Forumbee">
+            <summary>
+            Forumbee font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Forward">
+            <summary>
+            Forward font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Foursquare">
+            <summary>
+            Foursquare font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FrownO">
+            <summary>
+            Frown o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.FutbolO">
+            <summary>
+            Futbol o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Gamepad">
+            <summary>
+            Gamepad font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Gavel">
+            <summary>
+            Gavel font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Gbp">
+            <summary>
+            Gbp font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ge">
+            <summary>
+            Ge font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Gear">
+            <summary>
+            Gear font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Gears">
+            <summary>
+            Gears font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Genderless">
+            <summary>
+            Genderless font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Gift">
+            <summary>
+            Gift font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Git">
+            <summary>
+            Git font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Github">
+            <summary>
+            Github font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.GithubAlt">
+            <summary>
+            Github alt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.GithubSquare">
+            <summary>
+            Github square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.GitSquare">
+            <summary>
+            Git square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Gittip">
+            <summary>
+            Gittip font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Glass">
+            <summary>
+            Glass font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Globe">
+            <summary>
+            Globe font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Google">
+            <summary>
+            Google font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.GooglePlus">
+            <summary>
+            Google plus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.GooglePlusSquare">
+            <summary>
+            Google plus square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.GoogleWallet">
+            <summary>
+            Google wallet font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.GraduationCap">
+            <summary>
+            Graduation cap font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Gratipay">
+            <summary>
+            Gratipay font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Group">
+            <summary>
+            Group font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HackerNews">
+            <summary>
+            Hacker news font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HandODown">
+            <summary>
+            Hand o down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HandOLeft">
+            <summary>
+            Hand o left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HandORight">
+            <summary>
+            Hand o right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HandOUp">
+            <summary>
+            Hand o up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HddO">
+            <summary>
+            Hdd o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Header">
+            <summary>
+            Header font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Headphones">
+            <summary>
+            Headphones font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Heart">
+            <summary>
+            Heart font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Heartbeat">
+            <summary>
+            Heartbeat font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HeartO">
+            <summary>
+            Heart o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.History">
+            <summary>
+            History font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Home">
+            <summary>
+            Home font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HospitalO">
+            <summary>
+            Hospital o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Hotel">
+            <summary>
+            Hotel font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.HSquare">
+            <summary>
+            H square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Html5">
+            <summary>
+            Html5 font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ils">
+            <summary>
+            Ils font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Image">
+            <summary>
+            Image font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Inbox">
+            <summary>
+            Inbox font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Indent">
+            <summary>
+            Indent font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Info">
+            <summary>
+            Info font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.InfoCircle">
+            <summary>
+            Info circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Inr">
+            <summary>
+            Inr font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Instagram">
+            <summary>
+            Instagram font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Institution">
+            <summary>
+            Institution font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ioxhost">
+            <summary>
+            Ioxhost font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Italic">
+            <summary>
+            Italic font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Joomla">
+            <summary>
+            Joomla font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Jpy">
+            <summary>
+            Jpy font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Jsfiddle">
+            <summary>
+            Jsfiddle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Key">
+            <summary>
+            Key font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.KeyboardO">
+            <summary>
+            Keyboard o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Krw">
+            <summary>
+            Krw font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Language">
+            <summary>
+            Language font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Laptop">
+            <summary>
+            Laptop font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Lastfm">
+            <summary>
+            Lastfm font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LastfmSquare">
+            <summary>
+            Lastfm square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Leaf">
+            <summary>
+            Leaf font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Leanpub">
+            <summary>
+            Leanpub font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Legal">
+            <summary>
+            Legal font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LemonO">
+            <summary>
+            Lemon o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LevelDown">
+            <summary>
+            Level down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LevelUp">
+            <summary>
+            Level up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Lg">
+            <summary>
+            Lg font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Li">
+            <summary>
+            Li font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LifeBouy">
+            <summary>
+            Life bouy font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LifeBuoy">
+            <summary>
+            Life buoy font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LifeRing">
+            <summary>
+            Life ring font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LifeSaver">
+            <summary>
+            Life saver font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LightbulbO">
+            <summary>
+            Lightbulb o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LineChart">
+            <summary>
+            Line chart font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Link">
+            <summary>
+            Link font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Linkedin">
+            <summary>
+            Linkedin font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LinkedinSquare">
+            <summary>
+            Linkedin square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Linux">
+            <summary>
+            Linux font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.List">
+            <summary>
+            List font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ListAlt">
+            <summary>
+            List alt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ListOl">
+            <summary>
+            List ol font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ListUl">
+            <summary>
+            List ul font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LocationArrow">
+            <summary>
+            Location arrow font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Lock">
+            <summary>
+            Lock font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LongArrowDown">
+            <summary>
+            Long arrow down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LongArrowLeft">
+            <summary>
+            Long arrow left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LongArrowRight">
+            <summary>
+            Long arrow right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.LongArrowUp">
+            <summary>
+            Long arrow up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Magic">
+            <summary>
+            Magic font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Magnet">
+            <summary>
+            Magnet font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MailForward">
+            <summary>
+            Mail forward font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MailReply">
+            <summary>
+            Mail reply font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MailReplyAll">
+            <summary>
+            Mail reply all font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Male">
+            <summary>
+            Male font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MapMarker">
+            <summary>
+            Map marker font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Mars">
+            <summary>
+            Mars font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MarsDouble">
+            <summary>
+            Mars double font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MarsStroke">
+            <summary>
+            Mars stroke font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MarsStrokeH">
+            <summary>
+            Mars stroke h font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MarsStrokeV">
+            <summary>
+            Mars stroke v font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Maxcdn">
+            <summary>
+            Maxcdn font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Meanpath">
+            <summary>
+            Meanpath font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Medium">
+            <summary>
+            Medium font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Medkit">
+            <summary>
+            Medkit font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MehO">
+            <summary>
+            Meh o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Mercury">
+            <summary>
+            Mercury font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Microphone">
+            <summary>
+            Microphone font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MicrophoneSlash">
+            <summary>
+            Microphone slash font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Minus">
+            <summary>
+            Minus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MinusCircle">
+            <summary>
+            Minus circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MinusSquare">
+            <summary>
+            Minus square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MinusSquareO">
+            <summary>
+            Minus square o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Mobile">
+            <summary>
+            Mobile font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MobilePhone">
+            <summary>
+            Mobile phone font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Money">
+            <summary>
+            Money font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MoonO">
+            <summary>
+            Moon o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.MortarBoard">
+            <summary>
+            Mortar board font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Motorcycle">
+            <summary>
+            Motorcycle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Music">
+            <summary>
+            Music font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Navicon">
+            <summary>
+            Navicon font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Neuter">
+            <summary>
+            Neuter font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.NewspaperO">
+            <summary>
+            Newspaper o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Openid">
+            <summary>
+            Openid font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Outdent">
+            <summary>
+            Outdent font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Pagelines">
+            <summary>
+            Pagelines font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PaintBrush">
+            <summary>
+            Paint brush font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Paperclip">
+            <summary>
+            Paperclip font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PaperPlane">
+            <summary>
+            Paper plane font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PaperPlaneO">
+            <summary>
+            Paper plane o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Paragraph">
+            <summary>
+            Paragraph font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Paste">
+            <summary>
+            Paste font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Pause">
+            <summary>
+            Pause font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Paw">
+            <summary>
+            Paw font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Paypal">
+            <summary>
+            Paypal font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Pencil">
+            <summary>
+            Pencil font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PencilSquare">
+            <summary>
+            Pencil square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PencilSquareO">
+            <summary>
+            Pencil square o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Phone">
+            <summary>
+            Phone font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PhoneSquare">
+            <summary>
+            Phone square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Photo">
+            <summary>
+            Photo font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PictureO">
+            <summary>
+            Picture o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PieChart">
+            <summary>
+            Pie chart font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PiedPiper">
+            <summary>
+            Pied piper font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PiedPiperAlt">
+            <summary>
+            Pied piper alt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Pinterest">
+            <summary>
+            Pinterest font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PinterestP">
+            <summary>
+            Pinterest p font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PinterestSquare">
+            <summary>
+            Pinterest square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Plane">
+            <summary>
+            Plane font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Play">
+            <summary>
+            Play font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PlayCircle">
+            <summary>
+            Play circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PlayCircleO">
+            <summary>
+            Play circle o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Plug">
+            <summary>
+            Plug font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Plus">
+            <summary>
+            Plus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PlusCircle">
+            <summary>
+            Plus circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PlusSquare">
+            <summary>
+            Plus square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PlusSquareO">
+            <summary>
+            Plus square o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PowerOff">
+            <summary>
+            Power off font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Print">
+            <summary>
+            Print font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.PuzzlePiece">
+            <summary>
+            Puzzle piece font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Qq">
+            <summary>
+            Qq font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Qrcode">
+            <summary>
+            Qrcode font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Question">
+            <summary>
+            Question font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.QuestionCircle">
+            <summary>
+            Question circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.QuoteLeft">
+            <summary>
+            Quote left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.QuoteRight">
+            <summary>
+            Quote right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ra">
+            <summary>
+            Ra font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Random">
+            <summary>
+            Random font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Rebel">
+            <summary>
+            Rebel font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Recycle">
+            <summary>
+            Recycle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Reddit">
+            <summary>
+            Reddit font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.RedditSquare">
+            <summary>
+            Reddit square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Refresh">
+            <summary>
+            Refresh font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Remove">
+            <summary>
+            Remove font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Renren">
+            <summary>
+            Renren font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Reorder">
+            <summary>
+            Reorder font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Repeat">
+            <summary>
+            Repeat font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Reply">
+            <summary>
+            Reply font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ReplyAll">
+            <summary>
+            Reply all font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Retweet">
+            <summary>
+            Retweet font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Rmb">
+            <summary>
+            Rmb font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Road">
+            <summary>
+            Road font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Rocket">
+            <summary>
+            Rocket font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.RotateLeft">
+            <summary>
+            Rotate left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.RotateRight">
+            <summary>
+            Rotate right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Rouble">
+            <summary>
+            Rouble font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Rss">
+            <summary>
+            Rss font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.RssSquare">
+            <summary>
+            Rss square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Rub">
+            <summary>
+            Rub font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ruble">
+            <summary>
+            Ruble font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Rupee">
+            <summary>
+            Rupee font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Save">
+            <summary>
+            Save font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Scissors">
+            <summary>
+            Scissors font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Search">
+            <summary>
+            Search font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SearchMinus">
+            <summary>
+            Search minus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SearchPlus">
+            <summary>
+            Search plus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Sellsy">
+            <summary>
+            Sellsy font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Send">
+            <summary>
+            Send font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SendO">
+            <summary>
+            Send o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Server">
+            <summary>
+            Server font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Share">
+            <summary>
+            Share font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ShareAlt">
+            <summary>
+            Share alt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ShareAltSquare">
+            <summary>
+            Share alt square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ShareSquare">
+            <summary>
+            Share square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ShareSquareO">
+            <summary>
+            Share square o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Shekel">
+            <summary>
+            Shekel font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Sheqel">
+            <summary>
+            Sheqel font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Shield">
+            <summary>
+            Shield font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ship">
+            <summary>
+            Ship font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Shirtsinbulk">
+            <summary>
+            Shirtsinbulk font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ShoppingCart">
+            <summary>
+            Shopping cart font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Signal">
+            <summary>
+            Signal font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SignIn">
+            <summary>
+            Sign in font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SignOut">
+            <summary>
+            Sign out font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Simplybuilt">
+            <summary>
+            Simplybuilt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Sitemap">
+            <summary>
+            Sitemap font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Skyatlas">
+            <summary>
+            Skyatlas font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Skype">
+            <summary>
+            Skype font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Slack">
+            <summary>
+            Slack font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Sliders">
+            <summary>
+            Sliders font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Slideshare">
+            <summary>
+            Slideshare font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SmileO">
+            <summary>
+            Smile o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SoccerBallO">
+            <summary>
+            Soccer ball o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Sort">
+            <summary>
+            Sort font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortAlphaAsc">
+            <summary>
+            Sort alpha asc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortAlphaDesc">
+            <summary>
+            Sort alpha desc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortAmountAsc">
+            <summary>
+            Sort amount asc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortAmountDesc">
+            <summary>
+            Sort amount desc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortAsc">
+            <summary>
+            Sort asc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortDesc">
+            <summary>
+            Sort desc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortDown">
+            <summary>
+            Sort down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortNumericAsc">
+            <summary>
+            Sort numeric asc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortNumericDesc">
+            <summary>
+            Sort numeric desc font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SortUp">
+            <summary>
+            Sort up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Soundcloud">
+            <summary>
+            Soundcloud font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SpaceShuttle">
+            <summary>
+            Space shuttle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Spinner">
+            <summary>
+            Spinner font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Spoon">
+            <summary>
+            Spoon font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Spotify">
+            <summary>
+            Spotify font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Square">
+            <summary>
+            Square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SquareO">
+            <summary>
+            Square o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StackExchange">
+            <summary>
+            Stack exchange font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StackOverflow">
+            <summary>
+            Stack overflow font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Star">
+            <summary>
+            Star font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StarHalf">
+            <summary>
+            Star half font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StarHalfEmpty">
+            <summary>
+            Star half empty font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StarHalfFull">
+            <summary>
+            Star half full font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StarHalfO">
+            <summary>
+            Star half o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StarO">
+            <summary>
+            Star o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Steam">
+            <summary>
+            Steam font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SteamSquare">
+            <summary>
+            Steam square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StepBackward">
+            <summary>
+            Step backward font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StepForward">
+            <summary>
+            Step forward font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Stethoscope">
+            <summary>
+            Stethoscope font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Stop">
+            <summary>
+            Stop font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StreetView">
+            <summary>
+            Street view font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Strikethrough">
+            <summary>
+            Strikethrough font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Stumbleupon">
+            <summary>
+            Stumbleupon font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.StumbleuponCircle">
+            <summary>
+            Stumbleupon circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Subscript">
+            <summary>
+            Subscript font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Subway">
+            <summary>
+            Subway font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Suitcase">
+            <summary>
+            Suitcase font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.SunO">
+            <summary>
+            Sun o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Superscript">
+            <summary>
+            Superscript font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Support">
+            <summary>
+            Support font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Table">
+            <summary>
+            Table font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tablet">
+            <summary>
+            Tablet font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tachometer">
+            <summary>
+            Tachometer font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tag">
+            <summary>
+            Tag font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tags">
+            <summary>
+            Tags font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tasks">
+            <summary>
+            Tasks font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Taxi">
+            <summary>
+            Taxi font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TencentWeibo">
+            <summary>
+            Tencent weibo font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Terminal">
+            <summary>
+            Terminal font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TextHeight">
+            <summary>
+            Text height font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TextWidth">
+            <summary>
+            Text width font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Th">
+            <summary>
+            Th font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ThLarge">
+            <summary>
+            Th large font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ThList">
+            <summary>
+            Th list font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ThumbsDown">
+            <summary>
+            Thumbs down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ThumbsODown">
+            <summary>
+            Thumbs o down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ThumbsOUp">
+            <summary>
+            Thumbs o up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ThumbsUp">
+            <summary>
+            Thumbs up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ThumbTack">
+            <summary>
+            Thumb tack font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Ticket">
+            <summary>
+            Ticket font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Times">
+            <summary>
+            Times font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TimesCircle">
+            <summary>
+            Times circle font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TimesCircleO">
+            <summary>
+            Times circle o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tint">
+            <summary>
+            Tint font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ToggleDown">
+            <summary>
+            Toggle down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ToggleLeft">
+            <summary>
+            Toggle left font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ToggleOff">
+            <summary>
+            Toggle off font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ToggleOn">
+            <summary>
+            Toggle on font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ToggleRight">
+            <summary>
+            Toggle right font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ToggleUp">
+            <summary>
+            Toggle up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Train">
+            <summary>
+            Train font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Transgender">
+            <summary>
+            Transgender font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TransgenderAlt">
+            <summary>
+            Transgender alt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Trash">
+            <summary>
+            Trash font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TrashO">
+            <summary>
+            Trash o font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tree">
+            <summary>
+            Tree font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Trello">
+            <summary>
+            Trello font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Trophy">
+            <summary>
+            Trophy font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Truck">
+            <summary>
+            Truck font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Try">
+            <summary>
+            Try font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tty">
+            <summary>
+            Tty font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Tumblr">
+            <summary>
+            Tumblr font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TumblrSquare">
+            <summary>
+            Tumblr square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TurkishLira">
+            <summary>
+            Turkish lira font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Twitch">
+            <summary>
+            Twitch font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Twitter">
+            <summary>
+            Twitter font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.TwitterSquare">
+            <summary>
+            Twitter square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Umbrella">
+            <summary>
+            Umbrella font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Underline">
+            <summary>
+            Underline font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Undo">
+            <summary>
+            Undo font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.University">
+            <summary>
+            University font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Unlink">
+            <summary>
+            Unlink font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Unlock">
+            <summary>
+            Unlock font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.UnlockAlt">
+            <summary>
+            Unlock alt font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Unsorted">
+            <summary>
+            Unsorted font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Upload">
+            <summary>
+            Upload font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Usd">
+            <summary>
+            Usd font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.User">
+            <summary>
+            User font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.UserMd">
+            <summary>
+            User md font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.UserPlus">
+            <summary>
+            User plus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Users">
+            <summary>
+            Users font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.UserSecret">
+            <summary>
+            User secret font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.UserTimes">
+            <summary>
+            User times font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Venus">
+            <summary>
+            Venus font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.VenusDouble">
+            <summary>
+            Venus double font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.VenusMars">
+            <summary>
+            Venus mars font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Viacoin">
+            <summary>
+            Viacoin font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.VideoCamera">
+            <summary>
+            Video camera font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.VimeoSquare">
+            <summary>
+            Vimeo square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Vine">
+            <summary>
+            Vine font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Vk">
+            <summary>
+            Vk font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.VolumeDown">
+            <summary>
+            Volume down font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.VolumeOff">
+            <summary>
+            Volume off font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.VolumeUp">
+            <summary>
+            Volume up font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Warning">
+            <summary>
+            Warning font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Wechat">
+            <summary>
+            Wechat font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Weibo">
+            <summary>
+            Weibo font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Weixin">
+            <summary>
+            Weixin font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Whatsapp">
+            <summary>
+            Whatsapp font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Wheelchair">
+            <summary>
+            Wheelchair font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Wifi">
+            <summary>
+            Wifi font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Windows">
+            <summary>
+            Windows font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Won">
+            <summary>
+            Won font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Wordpress">
+            <summary>
+            Wordpress font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Wrench">
+            <summary>
+            Wrench font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Xing">
+            <summary>
+            Xing font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.XingSquare">
+            <summary>
+            Xing square font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Yahoo">
+            <summary>
+            Yahoo font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Yelp">
+            <summary>
+            Yelp font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Yen">
+            <summary>
+            Yen font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.Youtube">
+            <summary>
+            Youtube font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.YoutubePlay">
+            <summary>
+            Youtube play font awesome icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.FontAwesome.FontAwesomeType.YoutubeSquare">
+            <summary>
+            Youtube square font awesome icon.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.FontAwesome.FontAwesomeType.ToString">
+            <summary>
+            Returns string representation of th font awesome type
+            </summary>
+            <returns>String representation of th font awesome type</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.FontAwesome.FontAwesome">
+            <summary>
+            Represents font awesome component.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.FontAwesome.FontAwesome.#ctor(IssatisLab.Helpers.FontAwesome.FontAwesomeType,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the component with the specified HTML helper.
+            </summary>
+            <param name="type">The type of the font awesome.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="T:IssatisLab.Helpers.FontAwesome.FontAwesomeExtensions">
+            <summary>
+            Represents support for adding a font awesome.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.FontAwesome.FontAwesomeExtensions.FontAwesome(System.Web.Mvc.HtmlHelper,IssatisLab.Helpers.FontAwesome.FontAwesomeType)">
+            <summary>
+            Returns a font awesome component with the specified type.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="type">The type of the font awesome.</param>
+            <returns>A font awesome component.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,121 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.Ocorrencia
+<script src="~/assets/js/mapa.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDt0pnAgxUq7nEb8SwAzSEgNw_t2zKuLwI&callback=initMap"></script>
+
+
+<div class="row">
+    <div class=".col-md-3 .col-md-pull-9">
+        <button class="btn btn-default" onclick="getLocation()">Buscar Localização Atual</button>
+    </div>
+    <div class=".col-md-9 .col-md-push-3">
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button onclick="geocodeAddress()" class="btn btn-default" type="button">Localizar</button>
+            </span>
+            <input type="text" class="form-control" id="txtEndereco">
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-0">
+        <div class="page-header">
+            <h4 class="header-text">Registro de Ocorrência</h4>
+        </div>
+        <ul id="myTabs" class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#deals" role="tab" id="deals-tab" data-toggle="tab" aria-controls="deals">
+                    <i class="pe-7s-map-2"></i>
+                    <span>Mapa</span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="#employees" id="employees-tab" role="tab" data-toggle="tab" aria-controls="employees" aria-expanded="true">
+                    <i class="pe-7s-pen"></i>
+                    <span>Formulário de Ocorrência</span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="#foto" id="foto-tab" role="tab" data-toggle="tab" aria-controls="foto" aria-expanded="true">
+                    <i class="pe-7s-camera  "></i>
+                    <span>Foto</span>
+                </a>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div role="tabpanel" class="tab-pane p-0 active" id="deals">
+
+                <div class="widget">
+                    <div class="col-lg" id="divMapa" style="width: 100%; height: 500px;">
+                        <div id="map" style="width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="employees">
+                <div class="panel panel-white">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Input Sizes</h3>
+                        <div class="panel-tools">
+                            <a class="tools-action" href="#" data-toggle="collapse">
+                                <i class="pe-7s-angle-up"></i>
+                            </a>
+                            <a class="tools-action" href="#" data-toggle="dispose">
+                                <i class="pe-7s-close"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <form action="Ocorrencia/Create">
+                            <fieldset disabled>
+                                <div class="form-group">
+                                    <label for="sminput">Longitude</label>
+                                    <input class="form-control input-sm" id="longitude" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sminput">Latitude</label>
+                                    <input class="form-control input-sm" id="latitude" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sminput">Logradouro</label>
+                                    <input class="form-control input-sm" id="logradouro" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sminput">Numero</label>
+                                    <input class="form-control input-sm" id="numero" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sminput">Bairro</label>
+                                    <input class="form-control input-sm" id="bairro" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sminput">Cep</label>
+                                    <input class="form-control input-sm" id="cep" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sminput">Cidade</label>
+                                    <input class="form-control input-sm" id="cidade" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sminput">Estado</label>
+                                    <input class="form-control input-sm" id="estado" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sminput">Tipo</label>
+                                    <input class="form-control input-sm" id="tipo" type="text" value="@ViewBag.Tipo">
+                                </div>
+                            </fieldset>
+                            <div class="form-group">
+                                <label for="sminput">Descrição</label>
+                                <input class="form-control input-sm" id="descricao" type="text">
+                            </div>
+                            <input type="submit" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="foto">
+                foto
+            </div>
+        </div>
+    </div>
+</div>

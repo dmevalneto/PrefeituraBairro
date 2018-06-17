@@ -1,0 +1,23 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.AddPhoneNumberViewModel
+@{
+    ViewBag.Title = "Phone Number";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (var f = Html.BootstrapBeginForm("AddPhoneNumber", "Manage", FormMethod.Post).Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin())
+{
+    @Html.AntiForgeryToken()
+    <h4>Add a phone number</h4>
+    <hr />
+    @Html.ValidationSummary()
+    @f.FormGroup().TextBoxFor(m => m.Number)
+    @f.FormGroup().Submit("Submit")
+}
+
+@section Scripts
+{
+    <script src="/assets/js/lib/validation/jquery.validate.min.js"></script>
+    <script src="/assets/js/lib/validation/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/assets/js/lib/validation/jquery.validate.defaults.js"></script>
+}

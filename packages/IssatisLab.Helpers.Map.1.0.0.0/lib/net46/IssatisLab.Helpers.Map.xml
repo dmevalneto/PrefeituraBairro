@@ -1,0 +1,1787 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IssatisLab.Helpers.Map</name>
+    </assembly>
+    <members>
+        <member name="T:IssatisLab.Helpers.Map.JqvMapEuropeRegion">
+            <summary>
+            Represents Europe map regions
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Andorra">
+            <summary>
+            Andorra map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Albania">
+            <summary>
+            Albania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Armenia">
+            <summary>
+            Armenia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Austria">
+            <summary>
+            Austria map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Azerbaijan">
+            <summary>
+            Azerbaijan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.BosniaAndHerzegovina">
+            <summary>
+            Bosnia And Herzegovina map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Belgium">
+            <summary>
+            Belgium map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Bulgaria">
+            <summary>
+            Bulgaria map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Belarus">
+            <summary>
+            Belarus map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Switzerland">
+            <summary>
+            Switzerland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Cyprus">
+            <summary>
+            Cyprus map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.CzechRepublic">
+            <summary>
+            Czech Republic map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Germany">
+            <summary>
+            Germany map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Denmark">
+            <summary>
+            Denmark map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Algeria">
+            <summary>
+            Algeria map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Estonia">
+            <summary>
+            Estonia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Spain">
+            <summary>
+            Spain map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Finland">
+            <summary>
+            Finland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.France">
+            <summary>
+            France map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.UnitedKingdom">
+            <summary>
+            United Kingdom map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Georgia">
+            <summary>
+            Georgia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Greenland">
+            <summary>
+            Greenland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Greece">
+            <summary>
+            Greece map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Croatia">
+            <summary>
+            Croatia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Hungary">
+            <summary>
+            Hungary map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Ireland">
+            <summary>
+            Ireland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Israel">
+            <summary>
+            Israel map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Iraq">
+            <summary>
+            Iraq map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Iran">
+            <summary>
+            Iran map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Iceland">
+            <summary>
+            Iceland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Italy">
+            <summary>
+            Italy map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Jordan">
+            <summary>
+            Jordan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Kazakhstan">
+            <summary>
+            Kazakhstan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Lebanon">
+            <summary>
+            Lebanon map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Liechtenstein">
+            <summary>
+            Liechtenstein map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Lithuania">
+            <summary>
+            Lithuania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Luxembourg">
+            <summary>
+            Luxembourg map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Latvia">
+            <summary>
+            Latvia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Morocco">
+            <summary>
+            Morocco map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Monaco">
+            <summary>
+            Monaco map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Moldova">
+            <summary>
+            Moldova map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Montenegro">
+            <summary>
+            Montenegro map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Macedonia">
+            <summary>
+            Macedonia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Malta">
+            <summary>
+            Malta map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Netherlands">
+            <summary>
+            Netherlands map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Norway">
+            <summary>
+            Norway map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Poland">
+            <summary>
+            Poland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Portugal">
+            <summary>
+            Portugal map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Romania">
+            <summary>
+            Romania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.RussianFederation">
+            <summary>
+            Russian Federation map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.SaudiArabia">
+            <summary>
+            Saudi Arabia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Sweden">
+            <summary>
+            Sweden map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Slovenia">
+            <summary>
+            Slovenia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Slovakia">
+            <summary>
+            Slovakia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.SanMarino">
+            <summary>
+            San Marino map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Suriname">
+            <summary>
+            Suriname map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.SyrianArabRepublic">
+            <summary>
+            Syrian Arab Republic map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Turkmenistan">
+            <summary>
+            Turkmenistan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Tunisia">
+            <summary>
+            Tunisia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Turkey">
+            <summary>
+            Turkey map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapEuropeRegion.Ukraine">
+            <summary>
+            Ukraine map region
+            </summary>
+        </member>
+        <member name="T:IssatisLab.Helpers.Map.JqvMapExtensions">
+            <summary>
+            Represents support for adding a JQV map.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapExtensions.JqvMap(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a JQV map component with the specified selector.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="selector">The selector of the map component.</param>
+            <returns>A JQV map component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Map.JqvMapScript">
+            <summary>
+            Represents JQV map script component
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Map.JqvMapScript.Selector">
+            <summary>
+            The value of the selector
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Map.JqvMapScript.Option">
+            <summary>
+            The options value.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the JQV map component with the specified selector.
+            </summary>
+            <param name="selector">The value of the selector.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.Map(System.String)">
+            <summary>
+            Sets the map you want to load. Must include the javascript file with the name of the map you want.
+            Available maps with this library are world_en, usa_en, europe_en and germany_en
+            </summary>
+            <param name="map">The name of the map.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.BackgroundColor(System.String)">
+            <summary>
+            Sets the background color of map container in any CSS compatible format.
+            </summary>
+            <param name="backgroundColor">The value of the background color.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.BorderColor(System.String)">
+            <summary>
+            Sets the border Color to use to outline map objects
+            </summary>
+            <param name="borderColor">The value of the border color.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.BorderOpacity(System.Double)">
+            <summary>
+            Sets the border Opacity to use to outline map objects ( use anything from 0-1, e.g. 0.5, defaults to 0.25 )
+            </summary>
+            <param name="borderOpacity">The value of the border opacity.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.BorderWidth(System.Double)">
+            <summary>
+            Sets the border Width to use to outline map objects ( defaults to 1 )
+            </summary>
+            <param name="borderWidth">The value of the border width.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.Color(System.String)">
+            <summary>
+            Sets the color of map regions.
+            </summary>
+            <param name="color">The value of the color.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.EnableZoom(System.Boolean)">
+            <summary>
+            Enables Map Zoom (defaults to true)
+            </summary>
+            <param name="enableZoom">The value of the enable zoom.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.HoverColor(System.String)">
+            <summary>
+            Sets the color of the region when mouse pointer is over it.
+            </summary>
+            <param name="hoverColor">The value of the hover color.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.HoverOpacity(System.Double)">
+            <summary>
+            Sets the opacity of the region when mouse pointer is over it.
+            </summary>
+            <param name="hoverOpacity">The value of the border opacity.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.NormalizeFunction(System.String)">
+            <summary>
+            Sets the normalize function.
+            This function can be used to improve results of visualizations for data with non-linear nature.
+            Function gets raw value as the first parameter and should return value which will be used in calculations of color, with which particular region will be painted.
+            </summary>
+            <param name="normalizeFunction">The value of the normalize function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.ScaleColors(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the scale colors.
+            This option defines colors, with which regions will be painted when you set option values.
+            Array scaleColors can have more then two elements. Elements should be strings representing colors in RGB hex format.
+            </summary>
+            <param name="scaleColors">The value of the scale colors.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.ScaleColors(System.String[])">
+            <summary>
+            Sets the scale colors.
+            This option defines colors, with which regions will be painted when you set option values.
+            Array scaleColors can have more then two elements. Elements should be strings representing colors in RGB hex format.
+            </summary>
+            <param name="scaleColors">The value of the scale colors.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.SelectedColor(System.String)">
+            <summary>
+            Sets the color for a region when you select it
+            </summary>
+            <param name="selectedColor">The value of the selected color.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.SelectedRegion(System.String)">
+            <summary>
+            Sets the selected region.
+            This is the Region that you are looking to have preselected (two letter ISO code, defaults to null ).
+            </summary>
+            <param name="selectedRegion">The name of the selected region.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.SelectedRegion(IssatisLab.Helpers.Map.JqvMapRegionBase)">
+            <summary>
+            Sets the selected region.
+            This is the Region that you are looking to have preselected (two letter ISO code, defaults to null ).
+            </summary>
+            <param name="selectedRegion">The value of the selected region.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.ShowTooltip(System.Boolean)">
+            <summary>
+            Sets the whether to show Tooltips on Mouseover ( defaults to true )
+            </summary>
+            <param name="showTooltip">The value of the show tooltip.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.OnLabelShow(System.String)">
+            <summary>
+            Sets the on label show event callback function.
+            Callback function which will be called before label is shown.
+            Label DOM object and country code will be passed to the callback as arguments.
+            </summary>
+            <param name="onLabelShow">The value of the on label show callback function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.OnRegionOver(System.String)">
+            <summary>
+            Sets the on region over event callback function.
+            Callback function which will be called when the mouse cursor enters the region path.
+            Country code will be passed to the callback as argument.
+            </summary>
+            <param name="onRegionOver">The value of the on region over callback function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.OnRegionOut(System.String)">
+            <summary>
+            Sets the on region out event callback function.
+            Callback function which will be called when the mouse cursor leaves the region path.
+            Country code will be passed to the callback as argument.
+            </summary>
+            <param name="onRegionOut">The value of the on region out callback function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.OnRegionClick(System.String)">
+            <summary>
+            Sets the on region click event callback function.
+            Callback function which will be called when the user clicks the region path.
+            Country code will be passed to the callback as argument. This callback may be called while the user is moving the map.
+            If you need to distinguish between a "real" click and a click resulting from moving the map, you can inspect $(event.currentTarget).data('mapObject').isMoving.
+            </summary>
+            <param name="onRegionClick">The value of the on region click callback function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.Values(System.String)">
+            <summary>
+            Sets the function the provides the values.
+            </summary>
+            <param name="values">The function that provides the values.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapScript.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current component.
+            </summary>
+            <returns>HTML representation of the current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Map.JqvMapGermanyRegion">
+            <summary>
+            Represents Germany map regions
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Brandenburg">
+            <summary>
+            Brandenburg map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Berlin">
+            <summary>
+            Berlin map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.BadenWarttemberg">
+            <summary>
+            Baden Warttemberg map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Bayern">
+            <summary>
+            Bayern map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Bremen">
+            <summary>
+            Bremen map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Hessen">
+            <summary>
+            Hessen map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Hamburg">
+            <summary>
+            Hamburg map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.MecklenburgVorpommern">
+            <summary>
+            Mecklenburg Vorpommern map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Niedersachsen">
+            <summary>
+            Niedersachsen map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.NordrheinWestfalen">
+            <summary>
+            Nordrhein Westfalen map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.RheinlandPfalz">
+            <summary>
+            Rheinland Pfalz map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.SchleswigHolstein">
+            <summary>
+            Schleswig Holstein map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Saarland">
+            <summary>
+            Saarland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Sachsen">
+            <summary>
+            Sachsen map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.SachsenAnhalt">
+            <summary>
+            Sachsen Anhalt map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapGermanyRegion.Thari">
+            <summary>
+            Thari map region
+            </summary>
+        </member>
+        <member name="T:IssatisLab.Helpers.Map.JqvMapRegionBase">
+            <summary>
+            Represents a JQV map region.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapRegionBase.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of JQV map region.
+            </summary>
+            <param name="name">The name of the region.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Map.JqvMapRegionBase.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:IssatisLab.Helpers.Map.JqvMapUsaRegion">
+            <summary>
+            Represents USA map regions
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Alaska">
+            <summary>
+            Alaska map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Alabama">
+            <summary>
+            Alabama map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Arkansas">
+            <summary>
+            Arkansas map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Arizona">
+            <summary>
+            Arizona map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.California">
+            <summary>
+            California map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Colorado">
+            <summary>
+            Colorado map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Connecticut">
+            <summary>
+            Connecticut map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.DistrictOfColumbia">
+            <summary>
+            District Of Columbia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Delaware">
+            <summary>
+            Delaware map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Florida">
+            <summary>
+            Florida map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Georgia">
+            <summary>
+            Georgia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Hawaii">
+            <summary>
+            Hawaii map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Iowa">
+            <summary>
+            Iowa map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Idaho">
+            <summary>
+            Idaho map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Illinois">
+            <summary>
+            Illinois map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Indiana">
+            <summary>
+            Indiana map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Kansas">
+            <summary>
+            Kansas map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Kentucky">
+            <summary>
+            Kentucky map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Louisiana">
+            <summary>
+            Louisiana map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Massachusetts">
+            <summary>
+            Massachusetts map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Maryland">
+            <summary>
+            Maryland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Maine">
+            <summary>
+            Maine map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Michigan">
+            <summary>
+            Michigan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Minnesota">
+            <summary>
+            Minnesota map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Missouri">
+            <summary>
+            Missouri map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Mississippi">
+            <summary>
+            Mississippi map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Montana">
+            <summary>
+            Montana map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.NorthCarolina">
+            <summary>
+            North Carolina map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.NorthDakota">
+            <summary>
+            North Dakota map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Nebraska">
+            <summary>
+            Nebraska map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.NewHampshire">
+            <summary>
+            New Hampshire map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.NewJersey">
+            <summary>
+            New Jersey map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.NewMexico">
+            <summary>
+            New Mexico map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Nevada">
+            <summary>
+            Nevada map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.NewYork">
+            <summary>
+            New York map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Ohio">
+            <summary>
+            Ohio map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Oklahoma">
+            <summary>
+            Oklahoma map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Oregon">
+            <summary>
+            Oregon map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Pennsylvania">
+            <summary>
+            Pennsylvania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.RhodeIsland">
+            <summary>
+            Rhode Island map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.SouthCarolina">
+            <summary>
+            South Carolina map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.SouthDakota">
+            <summary>
+            South Dakota map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Tennessee">
+            <summary>
+            Tennessee map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Texas">
+            <summary>
+            Texas map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Utah">
+            <summary>
+            Utah map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Virginia">
+            <summary>
+            Virginia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Vermont">
+            <summary>
+            Vermont map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Washington">
+            <summary>
+            Washington map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.Wisconsin">
+            <summary>
+            Wisconsin map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapUsaRegion.WestVirginia">
+            <summary>
+            West Virginia map region
+            </summary>
+        </member>
+        <member name="T:IssatisLab.Helpers.Map.JqvMapWorldRegion">
+            <summary>
+            Represents world map regions
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.UnitedArabEmirates">
+            <summary>
+            United Arab Emirates map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Afghanistan">
+            <summary>
+            Afghanistan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.AntiguaAndBarbuda">
+            <summary>
+            Antigua And Barbuda map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Albania">
+            <summary>
+            Albania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Armenia">
+            <summary>
+            Armenia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Angola">
+            <summary>
+            Angola map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Argentina">
+            <summary>
+            Argentina map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Austria">
+            <summary>
+            Austria map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Australia">
+            <summary>
+            Australia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Azerbaijan">
+            <summary>
+            Azerbaijan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.BosniaAndHerzegovina">
+            <summary>
+            Bosnia And Herzegovina map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Barbados">
+            <summary>
+            Barbados map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Bangladesh">
+            <summary>
+            Bangladesh map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Belgium">
+            <summary>
+            Belgium map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.BurkinaFaso">
+            <summary>
+            Burkina Faso map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Bulgaria">
+            <summary>
+            Bulgaria map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Burundi">
+            <summary>
+            Burundi map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Benin">
+            <summary>
+            Benin map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.BruneiDarussalam">
+            <summary>
+            Brunei Darussalam map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Bolivia">
+            <summary>
+            Bolivia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Brazil">
+            <summary>
+            Brazil map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Bahamas">
+            <summary>
+            Bahamas map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Bhutan">
+            <summary>
+            Bhutan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Botswana">
+            <summary>
+            Botswana map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Belarus">
+            <summary>
+            Belarus map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Belize">
+            <summary>
+            Belize map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Canada">
+            <summary>
+            Canada map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.CentralAfricanRepublic">
+            <summary>
+            Central African Republic map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Congo">
+            <summary>
+            Congo map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Switzerland">
+            <summary>
+            Switzerland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.CotedIvoire">
+            <summary>
+            Coted Ivoire map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Chile">
+            <summary>
+            Chile map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Cameroon">
+            <summary>
+            Cameroon map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.China">
+            <summary>
+            China map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Colombia">
+            <summary>
+            Colombia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.CostaRica">
+            <summary>
+            Costa Rica map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Cuba">
+            <summary>
+            Cuba map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.CapeVerde">
+            <summary>
+            Cape Verde map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Cyprus">
+            <summary>
+            Cyprus map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.CzechRepublic">
+            <summary>
+            Czech Republic map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Germany">
+            <summary>
+            Germany map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Djibouti">
+            <summary>
+            Djibouti map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Denmark">
+            <summary>
+            Denmark map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Dominica">
+            <summary>
+            Dominica map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.DominicanRepublic">
+            <summary>
+            Dominican Republic map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Algeria">
+            <summary>
+            Algeria map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Ecuador">
+            <summary>
+            Ecuador map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Estonia">
+            <summary>
+            Estonia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Egypt">
+            <summary>
+            Egypt map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Eritrea">
+            <summary>
+            Eritrea map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Spain">
+            <summary>
+            Spain map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Ethiopia">
+            <summary>
+            Ethiopia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Finland">
+            <summary>
+            Finland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Fiji">
+            <summary>
+            Fiji map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.FalklandIslands">
+            <summary>
+            Falkland Islands map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.France">
+            <summary>
+            France map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Gabon">
+            <summary>
+            Gabon map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.UnitedKingdom">
+            <summary>
+            United Kingdom map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Grenada">
+            <summary>
+            Grenada map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Georgia">
+            <summary>
+            Georgia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.FrenchGuiana">
+            <summary>
+            French Guiana map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Ghana">
+            <summary>
+            Ghana map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Greenland">
+            <summary>
+            Greenland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Gambia">
+            <summary>
+            Gambia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Guinea">
+            <summary>
+            Guinea map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.EquatorialGuinea">
+            <summary>
+            Equatorial Guinea map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Greece">
+            <summary>
+            Greece map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Guatemala">
+            <summary>
+            Guatemala map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.GuineaBissau">
+            <summary>
+            Guinea Bissau map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Guyana">
+            <summary>
+            Guyana map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Honduras">
+            <summary>
+            Honduras map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Croatia">
+            <summary>
+            Croatia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Haiti">
+            <summary>
+            Haiti map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Hungary">
+            <summary>
+            Hungary map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Indonesia">
+            <summary>
+            Indonesia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Ireland">
+            <summary>
+            Ireland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Israel">
+            <summary>
+            Israel map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.India">
+            <summary>
+            India map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Iraq">
+            <summary>
+            Iraq map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Iran">
+            <summary>
+            Iran map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Iceland">
+            <summary>
+            Iceland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Italy">
+            <summary>
+            Italy map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Jamaica">
+            <summary>
+            Jamaica map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Jordan">
+            <summary>
+            Jordan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Japan">
+            <summary>
+            Japan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Kenya">
+            <summary>
+            Kenya map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.KyrgyzRepublic">
+            <summary>
+            Kyrgyz Republic map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Cambodia">
+            <summary>
+            Cambodia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Comoros">
+            <summary>
+            Comoros map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SaintKittsAndNevis">
+            <summary>
+            Saint Kitts And Nevis map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.NorthKorea">
+            <summary>
+            North Korea map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SouthKorea">
+            <summary>
+            South Korea map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Kuwait">
+            <summary>
+            Kuwait map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Kazakhstan">
+            <summary>
+            Kazakhstan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.LaoPeoplesDemocraticRepublic">
+            <summary>
+            Lao Peoples Democratic Republic map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Lebanon">
+            <summary>
+            Lebanon map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SaintLucia">
+            <summary>
+            Saint Lucia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SriLanka">
+            <summary>
+            Sri Lanka map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Liberia">
+            <summary>
+            Liberia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Lesotho">
+            <summary>
+            Lesotho map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Lithuania">
+            <summary>
+            Lithuania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Latvia">
+            <summary>
+            Latvia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Libya">
+            <summary>
+            Libya map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Morocco">
+            <summary>
+            Morocco map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Moldova">
+            <summary>
+            Moldova map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Madagascar">
+            <summary>
+            Madagascar map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Macedonia">
+            <summary>
+            Macedonia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Mali">
+            <summary>
+            Mali map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Myanmar">
+            <summary>
+            Myanmar map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Mongolia">
+            <summary>
+            Mongolia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Mauritania">
+            <summary>
+            Mauritania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Malta">
+            <summary>
+            Malta map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Mauritius">
+            <summary>
+            Mauritius map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Maldives">
+            <summary>
+            Maldives map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Malawi">
+            <summary>
+            Malawi map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Mexico">
+            <summary>
+            Mexico map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Malaysia">
+            <summary>
+            Malaysia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Mozambique">
+            <summary>
+            Mozambique map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Namibia">
+            <summary>
+            Namibia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.NewCaledonia">
+            <summary>
+            New Caledonia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Niger">
+            <summary>
+            Niger map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Nigeria">
+            <summary>
+            Nigeria map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Nicaragua">
+            <summary>
+            Nicaragua map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Netherlands">
+            <summary>
+            Netherlands map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Norway">
+            <summary>
+            Norway map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Nepal">
+            <summary>
+            Nepal map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.NewZealand">
+            <summary>
+            New Zealand map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Oman">
+            <summary>
+            Oman map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Panama">
+            <summary>
+            Panama map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Peru">
+            <summary>
+            Peru map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.FrenchPolynesia">
+            <summary>
+            French Polynesia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.PapuaNewGuinea">
+            <summary>
+            Papua New Guinea map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Philippines">
+            <summary>
+            Philippines map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Pakistan">
+            <summary>
+            Pakistan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Poland">
+            <summary>
+            Poland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Portugal">
+            <summary>
+            Portugal map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Paraguay">
+            <summary>
+            Paraguay map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Qatar">
+            <summary>
+            Qatar map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Reunion">
+            <summary>
+            Reunion map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Romania">
+            <summary>
+            Romania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Serbia">
+            <summary>
+            Serbia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.RussianFederation">
+            <summary>
+            Russian Federation map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Rwanda">
+            <summary>
+            Rwanda map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SaudiArabia">
+            <summary>
+            Saudi Arabia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SolomonIslands">
+            <summary>
+            Solomon Islands map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Seychelles">
+            <summary>
+            Seychelles map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Sudan">
+            <summary>
+            Sudan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Sweden">
+            <summary>
+            Sweden map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Slovenia">
+            <summary>
+            Slovenia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Slovakia">
+            <summary>
+            Slovakia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SierraLeone">
+            <summary>
+            Sierra Leone map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Senegal">
+            <summary>
+            Senegal map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Somalia">
+            <summary>
+            Somalia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Suriname">
+            <summary>
+            Suriname map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SaoTomeAndPrincipe">
+            <summary>
+            Sao Tome And Principe map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.ElSalvador">
+            <summary>
+            El Salvador map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SyrianArabRepublic">
+            <summary>
+            Syrian Arab Republic map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Swaziland">
+            <summary>
+            Swaziland map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Chad">
+            <summary>
+            Chad map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Togo">
+            <summary>
+            Togo map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Thailand">
+            <summary>
+            Thailand map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Tajikistan">
+            <summary>
+            Tajikistan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.TimorLeste">
+            <summary>
+            Timor Leste map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Turkmenistan">
+            <summary>
+            Turkmenistan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Tunisia">
+            <summary>
+            Tunisia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Turkey">
+            <summary>
+            Turkey map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.TrinidadAndTobago">
+            <summary>
+            Trinidad And Tobago map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Taiwan">
+            <summary>
+            Taiwan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Tanzania">
+            <summary>
+            Tanzania map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Ukraine">
+            <summary>
+            Ukraine map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Uganda">
+            <summary>
+            Uganda map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.UnitedStatesOfAmerica">
+            <summary>
+            United States Of America map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Uruguay">
+            <summary>
+            Uruguay map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Uzbekistan">
+            <summary>
+            Uzbekistan map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Venezuela">
+            <summary>
+            Venezuela map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Vietnam">
+            <summary>
+            Vietnam map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Vanuatu">
+            <summary>
+            Vanuatu map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Yemen">
+            <summary>
+            Yemen map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.SouthAfrica">
+            <summary>
+            South Africa map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Zambia">
+            <summary>
+            Zambia map region
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Map.JqvMapWorldRegion.Zimbabwe">
+            <summary>
+            Zimbabwe map region
+            </summary>
+        </member>
+    </members>
+</doc>

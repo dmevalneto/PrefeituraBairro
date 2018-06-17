@@ -1,0 +1,146 @@
+﻿@using IssatisLab.Yima.Mvc.Seed.Theme
+
+@model IssatisLab.Yima.Mvc.Seed.Models.LoginRegisterViewModel
+
+@{
+    ViewBag.Title = "Login/Register";
+    Layout = "~/Views/Shared/EmptyLayout.cshtml";
+}
+
+<div class="row membership">
+    <div class="col-lg-8 col-md-6 hidden-sm hidden-xs membership-brand">
+        <div class="brand-wrapper">
+            <div class="brand-container">
+                <a href="">
+                    <img class="brand-logo" src="~/assets/img/logo.png" />
+                </a>
+                <div class="brand-title">
+                   Bem Vindo
+                </div>
+                <div class="brand-subtitle">
+                    Tela de Logim para registro no sistema
+                </div>
+                <div class="brand-description">
+                   Sistema desenvolvido com intiuto de facilitar e otimizar atividades administrativas.
+
+                    @Html.ActionLink("Back to List", "Index","Home")
+                </div>
+                <div class="brand-action">
+                    <input type="button" class="btn btn-primary" value="Criar um ticket de suporte">
+                </div>
+                <ul class="brand-links">
+                    <li>
+                        <a href="">Termos e Condições</a>
+                    </li>
+                    <li>
+                        <a href="">Contrato e Licença</a>
+                    </li>
+                    <li>
+                        <a href="">Contato</a>
+                    </li>
+                    <li>
+                        <a href="">Suporte</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 membership-container">
+        <a class="hidden" id="toregister"></a>
+        <a class="hidden" id="tologin"></a>
+        <a href="" class="hidden-lg hidden-md">
+            <img class="brand-logo" src="~/assets/img/logo.png" />
+        </a>
+        <div class="login animated">
+            <div class="membership-title">Already have an account?</div>
+            @using (var f = Html.BootstrapBeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post).Begin())
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary()
+                <div class="membership-input">
+                    @f.TextBoxFor(m => m.Login.Email).NoLabel().Placeholder("Email")
+                </div>
+                <div class="membership-input">
+                    @f.PasswordFor(m => m.Login.Password).NoLabel().Placeholder("Password")
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="membership-input">
+                            @f.YimaCheckBoxFor(m => m.Login.RememberMe).Label("Remember Me")
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="membership-forgot pull-right">
+                            <a href="">Forgot Password?</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="membership-submit">
+                    @f.Submit("Sign In").Color(YimaBootstrapColor.Primary).Size(YimaBootstrapSize.Large).Block()
+                </div>
+            }
+
+            <div class="membership-signup">
+                <div class="signup-title">Do not Have an account?</div>
+                <a href="#toregister">Sign Up Now To Access All of Our Goodies!</a>
+            </div>
+        </div>
+        <div class="register animated">
+            <div class="membership-title">Create your account</div>
+            @using (var f = Html.BootstrapBeginForm("Register", "Account", FormMethod.Post).Begin())
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary()
+                <div class="membership-input">
+                    @f.TextBoxFor(m => m.Register.Username).NoLabel().Placeholder("Username")
+                </div>
+                <div class="membership-input">
+                    @f.PasswordFor(m => m.Register.Password).NoLabel().Placeholder("Password")
+                </div>
+                <div class="membership-input">
+                    @f.PasswordFor(m => m.Register.ConfirmPassword).NoLabel().Placeholder("Confirm Password")
+                </div>
+                <div class="hr-space space-xl"></div>
+
+                <div class="membership-title">Personal Information</div>
+                <div class="membership-input">
+                    @Html.BootstrapTextBox("name").Placeholder("Name")
+                </div>
+                <div class="membership-input">
+                    @Html.BootstrapTextBox("family").Placeholder("Family")
+                </div>
+                <div class="membership-input">
+                    @Html.YimaCheckBox("tos").Label("I agree to <a href=\"\">Terms of Service</a> and <a href=\"\">Privacy Policy</a>")
+                </div>
+
+                <div class="hr-space space-xl"></div>
+                <div class="membership-submit">
+                    @f.Submit("Sign Up").Color(YimaBootstrapColor.Primary).Size(YimaBootstrapSize.Large).Block()
+                </div>
+            }
+
+            <div class="membership-signup">
+                <div class="signup-title">Already have an account?</div>
+                <a href="#tologin">Login using your account info!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/assets/js/lib/validation/jquery.validate.min.js"></script>
+    <script src="~/assets/js/lib/validation/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/assets/js/lib/validation/jquery.validate.defaults.js"></script>
+    <script type="text/javascript">
+        @if (Model != null && !string.IsNullOrEmpty(Model.Section)) {
+            <text>
+            $(document).ready(function() {
+                location.href = '#@Model.Section';
+            });
+            </text>
+        }
+    </script>
+}

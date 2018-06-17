@@ -1,0 +1,30 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.Perfil
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (var f = Html.BootstrapBeginForm().Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin())
+{
+    @Html.AntiForgeryToken()
+    
+    <h4>Perfil</h4>
+    <hr />
+        @Html.HiddenFor(model => model.perfilId)
+
+        @f.FormGroup().TextBoxFor(model => model.nome)
+        @f.FormGroup().TextBoxFor(model => model.telefone)
+        @f.FormGroup().TextBoxFor(model => model.contato)
+		@f.FormGroup().Submit("Save")
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

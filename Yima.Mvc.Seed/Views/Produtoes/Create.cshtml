@@ -1,0 +1,30 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.Produto
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (var f = Html.BootstrapBeginForm().Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <h4>Produto</h4>
+    <hr />
+        @f.FormGroup().TextBoxFor(model => model.Descricao)
+        @f.FormGroup().TextBoxFor(model => model.Preco)
+        @f.FormGroup().TextBoxFor(model => model.UltimaCompra)
+        @f.FormGroup().TextBoxFor(model => model.Estoque)
+        @f.FormGroup().TextBoxFor(model => model.Comentario)
+        @f.FormGroup().Submit("Create")
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

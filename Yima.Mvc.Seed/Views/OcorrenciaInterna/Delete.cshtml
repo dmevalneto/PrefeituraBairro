@@ -1,0 +1,102 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.OcorrenciaInterna
+
+@{
+    ViewBag.Title = "Deletar Ocorrência";
+}
+
+
+<h3>Tem certeza que deseja deletar a ocorrência?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.logradouro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.logradouro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numero)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numero)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bairro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bairro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cep)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cep)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cidade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cidade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descricao)
+        </dd>
+
+    </dl>
+
+    @using (var f = Html.BootstrapBeginForm().Begin()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @f.Submit("Deletar") |
+            @Html.ActionLink("Retornar", "Index")
+        </div>
+    }
+</div>

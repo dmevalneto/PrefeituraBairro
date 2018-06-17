@@ -1,0 +1,1652 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IssatisLab.Helpers.General</name>
+    </assembly>
+    <members>
+        <member name="T:IssatisLab.Helpers.General.AutosizeExtensions">
+            <summary>
+            Represents support for adding a autosize.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.AutosizeExtensions.AutosizeScriptFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns an autosize component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>An autosize component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.AutosizeExtensions.AutosizeScript(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns an autosize component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the autosize.</param>
+            <returns>An autosize component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.ColorPickerControlType">
+            <summary>
+            Represents color picker control types
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.ColorPickerControlType.Hue">
+            <summary>
+            Hue control
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.ColorPickerControlType.Brightness">
+            <summary>
+            Brightness control
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.ColorPickerControlType.Saturation">
+            <summary>
+            Saturation control type
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.ColorPickerControlType.Wheel">
+            <summary>
+            Wheel control type
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerControlType.ToString">
+            <summary>
+            Returns string representation of the grid size.
+            </summary>
+            <returns>String representation of the grid size.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.ColorPickerPositionType">
+            <summary>
+            Represents the color picker position
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.ColorPickerPositionType.BottomLeft">
+            <summary>
+            Bottom Left position
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.ColorPickerPositionType.BottomRight">
+            <summary>
+            Bottom right position
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.ColorPickerPositionType.TopLeft">
+            <summary>
+            Bottom left position
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.ColorPickerPositionType.TopRight">
+            <summary>
+            Top right position
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerPositionType.ToString">
+            <summary>
+            Returns string representation of the grid size.
+            </summary>
+            <returns>String representation of the grid size.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.ColorPickerScript">
+            <summary>
+            Represents color picker script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerScript.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of color picker script with the specified HTML "id" attribute.
+            </summary>
+            <param name="id">The HTML "id" attribute.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerScript.Control(IssatisLab.Helpers.General.ColorPickerControlType)">
+            <summary>
+            Sets the control type.
+            </summary>
+            <param name="controlType">The value of the control type.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerScript.Inline">
+            <summary>
+            Makes the component inline.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerScript.Position(IssatisLab.Helpers.General.ColorPickerPositionType)">
+            <summary>
+            Sets the position of the component.
+            </summary>
+            <param name="positionType">The position of the component.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerScript.Opacity">
+            <summary>
+            Sets the opacity option of the component to "true"
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerScript.DefaultValue(System.String)">
+            <summary>
+            Sets the default value of the component.
+            </summary>
+            <param name="defaultValue">The default value of the component.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerScript.UpperCase">
+            <summary>
+            Makes the value uppercase.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerScript.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.DatePicker">
+            <summary>
+            Represents the date picker component
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.DatePicker.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new date picker with the specified HTML "id" attribute and HTML helper
+            </summary>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.DatePicker.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.DatePickerExtensions">
+            <summary>
+            Represents support for adding a date picker.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.DatePickerExtensions.BootstrapDatePickerScriptFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a date picker component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A date picker component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.DatePickerExtensions.BootstrapDatePickerScript(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a date picker component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the date picker.</param>
+            <returns>A date picker component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.DateRangePicker">
+            <summary>
+            Represents date range script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.DateRangePicker.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new date range picker with the specified HTML "id" attribute and HTML helper
+            </summary>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.DateRangePicker.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.DateRangePickerExtensions">
+            <summary>
+            Represents support for adding a date range picker.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.DateRangePickerExtensions.BootstrapDateRangePickerScriptFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a date range picker component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A date range picker component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.DateRangePickerExtensions.BootstrapDateRangePickerScript(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a date range picker component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the date range picker.</param>
+            <returns>A date range picker component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.InputMaskExtensions">
+            <summary>
+            Represents support for adding an input mask.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.InputMaskExtensions.InputMask(IssatisLab.Helpers.Bootstrap.Components.TextBoxBase,IssatisLab.Helpers.General.InputMaskTypeBase)">
+            <summary>
+            Adds a input mask with the specified type to the text box.
+            </summary>
+            <param name="textBox">The text box instance that this method extends.</param>
+            <param name="inputMaskType">The input mask value.</param>
+            <returns>Current text box.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.InputMaskExtensions.InputMask(IssatisLab.Helpers.Bootstrap.Components.FormTextBoxBase,IssatisLab.Helpers.General.InputMaskTypeBase)">
+            <summary>
+            Adds a input mask with the specified type to the text box.
+            </summary>
+            <param name="textBox">The text box instance that this method extends.</param>
+            <param name="inputMaskType">The input mask value.</param>
+            <returns>Current text box.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.InputMaskExtensions.InputMask(IssatisLab.Helpers.Bootstrap.Components.TextBoxBase,System.String)">
+            <summary>
+            Adds a input mask with the specified type to the text box.
+            </summary>
+            <param name="textBox">The text box instance that this method extends.</param>
+            <param name="inputMask">The input mask value.</param>
+            <returns>Current text box.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.InputMaskExtensions.InputMask(IssatisLab.Helpers.Bootstrap.Components.FormTextBoxBase,System.String)">
+            <summary>
+            Adds a input mask with the specified type to the text box.
+            </summary>
+            <param name="textBox">The text box instance that this method extends.</param>
+            <param name="inputMask">The input mask value.</param>
+            <returns>Current text box.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.Autosize">
+            <summary>
+            Represents autosize component
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Autosize.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the autosize component with the specified HTML "id" attribute and HTML helper.
+            </summary>
+            <param name="id">The HTML "id" attribute value.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Autosize.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.InputMaskType">
+            <summary>
+            Represents input mask types
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.InputMaskType.Date">
+            <summary>
+            Date input mask
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.InputMaskType.DashSeparatedDate">
+            <summary>
+            Dash separated date input mask
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.InputMaskType.Time">
+            <summary>
+            Time input mask
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.InputMaskType.DateTime">
+            <summary>
+            Date time input mask
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.InputMaskType.ZipCode">
+            <summary>
+            Zip code input mask
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.InputMaskType.PhoneNumber">
+            <summary>
+            Phone number input mask
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.InputMaskType.CreditCard">
+            <summary>
+            Credit card input mask
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.General.InputMaskType.HexColor">
+            <summary>
+            Hex color input mask
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.InputMaskType.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:IssatisLab.Helpers.General.InputMaskTypeBase">
+            <summary>
+            Represents input mask type
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.InputMaskTypeBase.#ctor(System.String)">
+            <summary>
+            Initializes a new input mask with the specified name
+            </summary>
+            <param name="name">The name of the input mask.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.InputMaskTypeBase.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:IssatisLab.Helpers.General.KnobExtensions">
+            <summary>
+            Represents support for adding a knob.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.KnobExtensions.Knob(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a knob component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the knob.</param>
+            <returns>A knob component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.KnobExtensions.Knob(System.Web.Mvc.HtmlHelper,System.String,System.String)">
+            <summary>
+            Returns a knob component with the specified name and value.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the knob.</param>
+            <param name="value">The value of the knob.</param>
+            <returns>A knob component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.KnobExtensions.KnobFor``2(IssatisLab.Helpers.Bootstrap.IForm{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a knob component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="form">The form instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A knob component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.KnobExtensions.KnobFor``2(IssatisLab.Helpers.Bootstrap.IFormGroup{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a knob component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="formGroup">The form group instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A knob component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.KnobExtensions.KnobScript(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a knob script component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A knob script component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.KnobScript">
+            <summary>
+            Represents knob script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.KnobScript.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new knob script with the specified name, HTML "id" attribute and HTML helper
+            </summary>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.KnobScript.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.RangeSliderExtensions">
+            <summary>
+            Represents support for adding a range slider.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSliderExtensions.RangeSliderScriptFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a range slider component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A range slider component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSliderExtensions.RangeSliderScript(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a range slider component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the range slider.</param>
+            <returns>A range slider component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.RateItExtensions">
+            <summary>
+            Represents support for adding a rateIt.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateItExtensions.RateItFor``2(IssatisLab.Helpers.Bootstrap.IFormGroup{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a rate it component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="formGroup">The form group instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A rate it component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateItExtensions.RateItFor``2(IssatisLab.Helpers.Bootstrap.IForm{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a rate it component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="form">The form group instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A rate it component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateItExtensions.RateIt(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a rate it component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A rate it component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateItExtensions.RateIt(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a rate it component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the rate it.</param>
+            <returns>A rate it component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateItExtensions.RateIt(System.Web.Mvc.HtmlHelper,System.String,System.Double)">
+            <summary>
+            Returns a rate it component with the specified name and value.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the rate it.</param>
+            <param name="value">The value of the rate it.</param>
+            <returns>A rate ir component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.Select2Extensions">
+            <summary>
+            Represents support for adding a select2.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Select2Extensions.Select2ScriptFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a select2 component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A select2 component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Select2Extensions.Select2Script(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a select2 component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the select2.</param>
+            <returns>A select2 component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.SpinBoxExtensions">
+            <summary>
+            Represents support for adding a spin box.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBoxExtensions.SpinBox(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a spin box component.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A spin box component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBoxExtensions.SpinBoxScript(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a spin box component with the specified expression.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A spin box component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.SpinBoxScript">
+            <summary>
+            Represents spin box script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBoxScript.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new spin box with the specified HTML helper
+            </summary>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBoxScript.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.TagsInputExtensions">
+            <summary>
+            Represents support for adding a tags input.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInput(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a tags input element by using the specified HTML helper and the name of the form field.
+            </summary>
+            
+            <returns>
+            A tags input element.
+            </returns>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the form field and the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> key that is used to look up the value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInput(System.Web.Mvc.HtmlHelper,System.String,System.Object)">
+            <summary>
+            Returns a tags input element by using the specified HTML helper and the name of the form field, and the value.
+            </summary>
+            
+            <returns>
+            A tags input element.
+            </returns>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the form field and the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> key that is used to look up the value.</param>
+            <param name="value">The value of the tags input element. The value is retrieved in this order - the <see cref="T:System.Web.Mvc.ModelStateDictionary"/> object, the value of this parameter, the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> object, and lastly, a value attribute in the html attributes.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInput(System.Web.Mvc.HtmlHelper,System.String,System.Object,System.String)">
+            <summary>
+            Returns a tags input element by using the specified HTML helper and the name of the form field, the value, and the format.
+            </summary>
+            
+            <returns>
+            A tags input element.
+            </returns>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the form field and the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> key that is used to look up the value.</param>
+            <param name="value">The value of the tags input element. The value is retrieved in this order - the <see cref="T:System.Web.Mvc.ModelStateDictionary"/> object, the value of this parameter, the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> object, and lastly, a value attribute in the html attributes.</param>
+            <param name="format">A string that is used to format the input.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInput(System.Web.Mvc.HtmlHelper,System.String,System.Object,System.Object)">
+            <summary>
+            Returns a tags input element by using the specified HTML helper and the name of the form field, the value, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element.
+            </returns>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the form field and the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> key that is used to look up the value.</param>
+            <param name="value">The value of the tags input element. The value is retrieved in this order - the <see cref="T:System.Web.Mvc.ModelStateDictionary"/> object, the value of this parameter, the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> object, and lastly, a value attribute in the html attributes.</param>
+            <param name = "htmlAttributes"> An object that contains the HTML attributes to set for the element.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInput(System.Web.Mvc.HtmlHelper,System.String,System.Object,System.String,System.Object)">
+            <summary>
+            Returns a tags input element by using the specified HTML helper and the name of the form field, the value, the format, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element.
+            </returns>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the form field and the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> key that is used to look up the value.</param>
+            <param name="value">The value of the tags input element. The value is retrieved in this order - the <see cref="T:System.Web.Mvc.ModelStateDictionary"/> object, the value of this parameter, the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> object, and lastly, a value attribute in the html attributes.</param>
+            <param name="format">A string that is used to format the input.</param>
+            <param name="htmlAttributes"> An object that contains the HTML attributes to set for the element.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInput(System.Web.Mvc.HtmlHelper,System.String,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Returns a tags input element by using the specified HTML helper and the name of the form field, the value, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element.
+            </returns>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the form field and the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> key that is used to look up the value.</param>
+            <param name="value">The value of the tags input element. The value is retrieved in this order - the <see cref="T:System.Web.Mvc.ModelStateDictionary"/> object, the value of this parameter, the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> object, and lastly, a value attribute in the html attributes.</param>
+            <param name="htmlAttributes">An object that contains the HTML attributes to set for the element.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInput(System.Web.Mvc.HtmlHelper,System.String,System.Object,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Returns a tags input element by using the specified HTML helper and the name of the form field, the value, the format, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element.
+            </returns>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the form field and the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> key that is used to look up the value.</param>
+            <param name="value">The value of the tags input element. The value is retrieved in this order - the <see cref="T:System.Web.Mvc.ModelStateDictionary"/> object, the value of this parameter, the <see cref="T:System.Web.Mvc.ViewDataDictionary"/> object, and lastly, a value attribute in the html attributes.</param>
+            <param name="format">A string that is used to format the input.</param>
+            <param name="htmlAttributes">An object that contains the HTML attributes to set for the element.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInputScriptFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a tags input script component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A tags input script component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.BootstrapTagsInputScript(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a tags input script component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the tags input script.</param>
+            <returns>A tags input script component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IFormGroup{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="formGroup">The IFormGroup instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IFormGroup{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, and the format.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="formGroup">The IFormGroup instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name="format">A string that is used to format the input.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IFormGroup{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="formGroup">The IFormGroup instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name="htmlAttributes"> An object that contains the HTML attributes to set for the element.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IFormGroup{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Object)">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, the format, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="formGroup">The IFormGroup instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name="format">A string that is used to format the input.</param>
+            <param name="htmlAttributes"> An object that contains the HTML attributes to set for the element.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IFormGroup{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="formGroup">The IFormGroup instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name = "htmlAttributes" > A dictionary that contains the HTML attributes to set for the element.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IFormGroup{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, the format, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="formGroup">The IFormGroup instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name="format">A string that is used to format the input.</param>
+            <param name = "htmlAttributes" > A dictionary that contains the HTML attributes to set for the element.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IForm{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="form">The IForm instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IForm{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, and the format.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="form">The IForm instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name="format">A string that is used to format the input.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IForm{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="form">The IForm instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name="htmlAttributes"> An object that contains the HTML attributes to set for the element.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IForm{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Object)">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, the format, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="form">The IForm instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name="format">A string that is used to format the input.</param>
+            <param name="htmlAttributes"> An object that contains the HTML attributes to set for the element.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IForm{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="form">The IForm instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name = "htmlAttributes" > A dictionary that contains the HTML attributes to set for the element.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputExtensions.TagsInputFor``2(IssatisLab.Helpers.Bootstrap.IForm{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Returns a tags input element for each property in the object that is represented by the specified expression, the format, and the HTML attributes.
+            </summary>
+            
+            <returns>
+            A tags input element for each property in the object that is represented by the expression.
+            </returns>
+            <param name="form">The IForm instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to render.</param>
+            <param name="format">A string that is used to format the input.</param>
+            <param name = "htmlAttributes" > A dictionary that contains the HTML attributes to set for the element.</param>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the value.</typeparam>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.TagsInputScript">
+            <summary>
+            Represents tags input script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputScript.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new tags input script with the specified HTML "id" attribute and HTML helper
+            </summary>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TagsInputScript.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.TimePicker">
+            <summary>
+            Represents time picker script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TimePicker.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new time picker with the specified HTML "id" attribute and HTML helper
+            </summary>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TimePicker.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.TimePickerExtensions">
+            <summary>
+            Represents support for adding a time picker.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TimePickerExtensions.BootstrapTimePickerScriptFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a time picker component with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A time picker component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.TimePickerExtensions.BootstrapTimePickerScript(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a time picker component with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the time picker.</param>
+            <returns>A time picker component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.Wizard">
+            <summary>
+            Represents wizard component
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.Wizard.StepNo">
+            <summary>
+            Number of steps of the wizard.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.Wizard.WizardSteps">
+            <summary>
+            Collection of the wizard steps.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.Wizard.Actions">
+            <summary>
+            Collection of action buttons
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new wizard with the specified HTML helper
+            </summary>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.AddStep(IssatisLab.Helpers.General.WizardStep)">
+            <summary>
+            Adds a step to the wizard.
+            </summary>
+            <param name="wizardStep">The value of the step.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.PreviousAction(IssatisLab.Helpers.Bootstrap.Components.ButtonBase)">
+            <summary>
+            Adds a previous button to the wizard.
+            </summary>
+            <param name="button">The value of the button.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.PreviousAction(System.String)">
+            <summary>
+            Adds a previous button with the specified text.
+            </summary>
+            <param name="text">The text of the previous button.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.NextAction(IssatisLab.Helpers.Bootstrap.Components.ButtonBase)">
+            <summary>
+            Adds a next button to the wizard.
+            </summary>
+            <param name="button">The value of the button.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.NextAction(System.String)">
+            <summary>
+            Adds a next button with the specified text.
+            </summary>
+            <param name="text">The text of the next button.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.Tabbed">
+            <summary>
+            Makes the wizard tabbed
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            Returns null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Wizard.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.RateIt">
+            <summary>
+            Represents rate it component
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.RateIt.RateValue">
+            <summary>
+            The value of rate
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.RateIt.MinValue">
+            <summary>
+            Minimum possible value
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.RateIt.MaxValue">
+            <summary>
+            Maximum possible value
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.RateIt.StepValue">
+            <summary>
+            Steps value
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.RateIt.Input">
+            <summary>
+            The HTML input
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.#ctor(System.String,System.String,System.Double,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new rate it with the specified name, HTML "id" attribute, value and HTML helper
+            </summary>
+            <param name="name">The name of the rate it.</param>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <param name="value">The value of the rate it.</param>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.Value(System.Double)">
+            <summary>
+            Sets the value of the rate it.
+            </summary>
+            <param name="value">The value of the value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.Min(System.Double)">
+            <summary>
+            Sets the minimum possible value.
+            </summary>
+            <param name="min">The minimum possible value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.Max(System.Double)">
+            <summary>
+            Sets the maximum possible value.
+            </summary>
+            <param name="max">The maximum possible value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.Step(System.Double)">
+            <summary>
+            Sets the steps of possible values.
+            </summary>
+            <param name="step">The steps of possible values.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.Preset">
+            <summary>
+            Makes the rate it preset.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.Readonly">
+            <summary>
+            Makes the rate it read only.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            Returns null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RateIt.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.RangeSlider">
+            <summary>
+            Represents range slider script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new range slider with the specified HTML "id" attribute and HTML helper
+            </summary>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Double">
+            <summary>
+            Makes the range slider accept double values.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Grid">
+            <summary>
+            Makes the range slider a grid.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Min(System.Double)">
+            <summary>
+            Sets the minimum of the range slider.
+            </summary>
+            <param name="min">The value of the minimum.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Max(System.Double)">
+            <summary>
+            Sets the maximum of the range slider.
+            </summary>
+            <param name="max">The value of the maximum.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.From(System.Double)">
+            <summary>
+            Sets the from of the range slider.
+            </summary>
+            <param name="from">The value of the from.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.To(System.Double)">
+            <summary>
+            Sets the to of the range slider.
+            </summary>
+            <param name="to">The value of the to.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Prefix(System.String)">
+            <summary>
+            Sets the prefix of the range slider.
+            </summary>
+            <param name="prefix">The value of the prefix.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Postfix(System.String)">
+            <summary>
+            Sets the postfix of the range slider.
+            </summary>
+            <param name="postfix">The value of the postfix.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Step(System.Double)">
+            <summary>
+            Sets the step of the range slider.
+            </summary>
+            <param name="step">The value of the step.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Values(System.String[])">
+            <summary>
+            Sets the values of the range slider.
+            </summary>
+            <param name="values">The value of the values.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.Prettify">
+            <summary>
+            Makes the range slider to prettify.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.PrettifySeparator(System.String)">
+            <summary>
+            Sets the prettify separator of the range slider.
+            </summary>
+            <param name="prettifySeparator">The value of the prettify separator.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.DecorateBoth">
+            <summary>
+            Makes the range slider to decorate both.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.ValuesSeparator(System.String)">
+            <summary>
+            Sets the values separator of the range slider.
+            </summary>
+            <param name="valuesSeparator">The value of the values separator.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.RangeSlider.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.Select2">
+            <summary>
+            Represents select2 script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Select2.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new select2 with the specified HTML "id" attribute and HTML helper
+            </summary>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Select2.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.ColorPickerExtensions">
+            <summary>
+            Represents support for adding a color picker.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerExtensions.ColorPickerScriptFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns a color picker script with the specified expression.
+            </summary>
+            <typeparam name="TModel">The type of the model.</typeparam>
+            <typeparam name="TProperty">The type of the property.</typeparam>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="expression">An expression that identifies the object that contains the properties to display.</param>
+            <returns>A color picker script.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.ColorPickerExtensions.ColorPickerScript(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a color picker script with the specified name.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="name">The name of the color picker.</param>
+            <returns>A color picker script.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.Knob">
+            <summary>
+            Represents knob component
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.Knob.Input">
+            <summary>
+            The HTML input value.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.#ctor(System.String,System.String,System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new knob with the specified name, HTML "id" attribute and HTML helper
+            </summary>
+            <param name="name">The value of the name.</param>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <param name="value">The value of the knob.</param>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.Title(System.String)">
+            <summary>
+            Sets the title of the knob.
+            </summary>
+            <param name="title">The value of the title.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.Width(System.Int32)">
+            <summary>
+            Sets the width of the knob.
+            </summary>
+            <param name="width">The value of the width.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.Cursor">
+            <summary>
+            Adds a cursor to knob.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.Color(System.String)">
+            <summary>
+            Sets the color of the knob.
+            </summary>
+            <param name="color">The value of the color.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.Thickness(System.Double)">
+            <summary>
+            Sets the thickness of the knob.
+            </summary>
+            <param name="thickness">The value of the thickness.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.Value(System.String)">
+            <summary>
+            Sets the value of the knob.
+            </summary>
+            <param name="value">The value of the value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.DisplayPrevious">
+            <summary>
+            Makes the knob to display the previous value.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.AngleOffset(System.Double)">
+            <summary>
+            Sets the angle offset of the knob.
+            </summary>
+            <param name="angleoffset">The value of the angle offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.Round">
+            <summary>
+            Makes the knob round.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.AngleArc(System.Double)">
+            <summary>
+            Sets the angle arc of the knob.
+            </summary>
+            <param name="angleArc">The value of the angle arc.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.Clockwise">
+            <summary>
+            Makes the knob to work clockwise.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            Returns null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.Knob.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.SpinBox">
+            <summary>
+            Represents spin box component
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.SpinBox.IncreaseButton">
+            <summary>
+            The increase button value
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.SpinBox.DecreaseButton">
+            <summary>
+            The decrease button value
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.SpinBox.IsHorizontal">
+            <summary>
+            Shows whether the component is horizantal or not
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBox.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new spin box with the specified HTML helper
+            </summary>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBox.TextBox(IssatisLab.Helpers.Bootstrap.Components.TextBoxBase)">
+            <summary>
+            Adds a text box to the spin box
+            </summary>
+            <param name="textBox">The value of the text box.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBox.Increase(IssatisLab.Helpers.Bootstrap.Components.ButtonBase)">
+            <summary>
+            Sets the increase button of the spin box
+            </summary>
+            <param name="button">The value of the increase button.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBox.Decrease(IssatisLab.Helpers.Bootstrap.Components.ButtonBase)">
+            <summary>
+            Sets the decrease button of the spin box
+            </summary>
+            <param name="button">The value of the decrease button.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBox.Horizontal">
+            <summary>
+            Makes the component horizontal
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBox.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            Returns null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBox.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.SpinBox.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.WizardExtensions">
+            <summary>
+            Represents support for adding a wizard.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardExtensions.Wizard(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a wizard component.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A wizard component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardExtensions.WizardStep(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a wizard step component.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A wizard step component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardExtensions.WizardStepTitle(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a wizard step title component.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A wizard step title component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardExtensions.WizardStepTitle(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a wizard step title component with the specified value.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="title">The value of the title.</param>
+            <returns>A wizard step title component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardExtensions.WizardStepContent(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a wizard step content component.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A wizard step content component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardExtensions.WizardStepContent(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a wizard step content component with the specified value.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="content">The value of the content.</param>
+            <returns>A wizard step title component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardExtensions.WizardStepContent(System.Web.Mvc.HtmlHelper,System.Func{System.Object,System.Web.WebPages.HelperResult})">
+            <summary>
+            Returns a wizard step content component with the specified value.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="content">The value of the content.</param>
+            <returns>A wizard step title component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardExtensions.WizardScript(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a wizard script component with the specified value.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A wizard script component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.WizardScript">
+            <summary>
+            Represents wizard script
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardScript.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new wizard script with the specified HTML helper
+            </summary>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardScript.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.WizardStep">
+            <summary>
+            Represents a wizard step
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.WizardStep.StepNoValue">
+            <summary>
+            Step number
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.WizardStep.IsActive">
+            <summary>
+            Shows whether this steps is active or not
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.WizardStep.TitleValue">
+            <summary>
+            The title of the step
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.WizardStep.ContentValue">
+            <summary>
+            Content of the step
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStep.#ctor">
+            <summary>
+            Initializes a new wizard step.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStep.Active">
+            <summary>
+            Makes the step active.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStep.Title(IssatisLab.Helpers.General.WizardStepTitle)">
+            <summary>
+            Sets the title of the step.
+            </summary>
+            <param name="title">The value of the title.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStep.Content(IssatisLab.Helpers.General.WizardStepContent)">
+            <summary>
+            Sets the content of the step.
+            </summary>
+            <param name="content">The content of the step.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStep.StepNo(System.Int32)">
+            <summary>
+            Sets the step number.
+            </summary>
+            <param name="stepNo">The step number.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.WizardStepContent">
+            <summary>
+            Represents wizard step content
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepContent.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new wizard step content with the specified HTML helper
+            </summary>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepContent.Content(System.String)">
+            <summary>
+            Sets the content of the step.
+            </summary>
+            <param name="content">The content of the step.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepContent.Content(System.Func{System.Object,System.Web.WebPages.HelperResult})">
+            <summary>
+            Sets the content of the step.
+            </summary>
+            <param name="content">The content of the step.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepContent.Active">
+            <summary>
+            Makes the step's contents active
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepContent.StepNo(System.Int32)">
+            <summary>
+            Sets the step's content number.
+            </summary>
+            <param name="number">The number of step.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepContent.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            Returns null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepContent.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.General.WizardStepTitle">
+            <summary>
+            Represents wizard step title component
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.General.WizardStepTitle.StepNoValue">
+            <summary>
+            The step number
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepTitle.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new wizard step title with the specified HTML helper
+            </summary>
+            <param name="htmlHelper">The HTML helper value.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepTitle.Title(System.String)">
+            <summary>
+            Sets the step's title.
+            </summary>
+            <param name="title">The title of the step.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepTitle.Active">
+            <summary>
+            Makes this step active.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepTitle.StepNo(System.Int32)">
+            <summary>
+            Sets the step number.
+            </summary>
+            <param name="stepNo">The value of the step number.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepTitle.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            Returns null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepTitle.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.General.WizardStepTitle.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+    </members>
+</doc>

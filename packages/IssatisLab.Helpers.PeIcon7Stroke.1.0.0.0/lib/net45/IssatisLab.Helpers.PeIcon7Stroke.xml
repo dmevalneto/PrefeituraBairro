@@ -1,0 +1,1083 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IssatisLab.Helpers.PeIcon7Stroke</name>
+    </assembly>
+    <members>
+        <member name="T:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeBase">
+            <summary>
+            Represents Pe-icon-7-stroke.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeBase.#ctor(IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the component with the specified HTML helper.
+            </summary>
+            <param name="type">The type of the font awesome.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeBase.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeBase.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType">
+            <summary>
+            Represents Pe-icon-7-stroke icon types.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.None">
+            <summary>
+                    public static readonly PeIcon7StrokeType None = new PeIcon7StrokeType("");
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AddUser">
+            <summary>
+            Add user Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Airplay">
+            <summary>
+            Airplay Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Alarm">
+            <summary>
+            Alarm Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Album">
+            <summary>
+            Album Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Albums">
+            <summary>
+            Albums Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Anchor">
+            <summary>
+            Anchor Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AngleDown">
+            <summary>
+            Angle down Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AngleDownCircle">
+            <summary>
+            Angle down circle Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AngleLeft">
+            <summary>
+            Angle left Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AngleLeftCircle">
+            <summary>
+            Angle left circle Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AngleRight">
+            <summary>
+            Angle right Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AngleRightCircle">
+            <summary>
+            Angle right circle Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AngleUp">
+            <summary>
+            Angle up Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.AngleUpCircle">
+            <summary>
+            Angle up circle Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Arc">
+            <summary>
+            Arc Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Attention">
+            <summary>
+            Attention Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Back">
+            <summary>
+            Back Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Back2">
+            <summary>
+            Back 2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Ball">
+            <summary>
+            Ball Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Bandaid">
+            <summary>
+            Bandaid Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Battery">
+            <summary>
+            Battery Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Bell">
+            <summary>
+            Bell Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Bicycle">
+            <summary>
+            Bicycle Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Bluetooth">
+            <summary>
+            Bluetooth Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Bookmarks">
+            <summary>
+            Bookmarks Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.BottomArrow">
+            <summary>
+            Bottom arrow Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Box1">
+            <summary>
+            Box1 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Box2">
+            <summary>
+            Box2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Browser">
+            <summary>
+            Browser Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Calculator">
+            <summary>
+            Calculator Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Call">
+            <summary>
+            Call Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Camera">
+            <summary>
+            Camera Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Car">
+            <summary>
+            Car Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Cart">
+            <summary>
+            Cart Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Cash">
+            <summary>
+            Cash Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Chat">
+            <summary>
+            Chat Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Check">
+            <summary>
+            Check Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Clock">
+            <summary>
+            Clock Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Close">
+            <summary>
+            Close Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.CloseCircle">
+            <summary>
+            Close circle Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Cloud">
+            <summary>
+            Cloud Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.CloudDownload">
+            <summary>
+            Cloud download Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.CloudUpload">
+            <summary>
+            Cloud upload Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Coffee">
+            <summary>
+            Coffee Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Comment">
+            <summary>
+            Comment Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Compass">
+            <summary>
+            Compass Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Config">
+            <summary>
+            Config Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.CopyFile">
+            <summary>
+            Copy file Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Credit">
+            <summary>
+            Credit Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Crop">
+            <summary>
+            Crop Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Culture">
+            <summary>
+            Culture Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Cup">
+            <summary>
+            Cup Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Date">
+            <summary>
+            Date Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.DeleteUser">
+            <summary>
+            Delete user Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Diamond">
+            <summary>
+            Diamond Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Disk">
+            <summary>
+            Disk Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Diskette">
+            <summary>
+            Diskette Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Display1">
+            <summary>
+            Display1 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Display2">
+            <summary>
+            Display2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.DoorLock">
+            <summary>
+            Door lock Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Download">
+            <summary>
+            Download Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Drawer">
+            <summary>
+            Drawer Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Drop">
+            <summary>
+            Drop Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Edit">
+            <summary>
+            Edit Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Exapnd2">
+            <summary>
+            Exapnd2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Expand1">
+            <summary>
+            Expand1 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Eyedropper">
+            <summary>
+            Eyedropper Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Female">
+            <summary>
+            Female Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.File">
+            <summary>
+            File Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Film">
+            <summary>
+            Film Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Filter">
+            <summary>
+            Filter Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Flag">
+            <summary>
+            Flag Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Folder">
+            <summary>
+            Folder Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Gift">
+            <summary>
+            Gift Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Glasses">
+            <summary>
+            Glasses Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Gleam">
+            <summary>
+            Gleam Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Global">
+            <summary>
+            Global Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Graph">
+            <summary>
+            Graph Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Graph1">
+            <summary>
+            Graph1 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Graph2">
+            <summary>
+            Graph2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Graph3">
+            <summary>
+            Graph3 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Gym">
+            <summary>
+            Gym Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Hammer">
+            <summary>
+            Hammer Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Headphones">
+            <summary>
+            Headphones Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Helm">
+            <summary>
+            Helm Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Help1">
+            <summary>
+            Help1 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Help2">
+            <summary>
+            Help2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Home">
+            <summary>
+            Home Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Hourglass">
+            <summary>
+            Hourglass Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Id">
+            <summary>
+            Id Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Info">
+            <summary>
+            Info Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Joy">
+            <summary>
+            Joy Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Junk">
+            <summary>
+            Junk Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Key">
+            <summary>
+            Key Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Keypad">
+            <summary>
+            Keypad Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Leaf">
+            <summary>
+            Leaf Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.LeftArrow">
+            <summary>
+            Left arrow Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Less">
+            <summary>
+            Less Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Light">
+            <summary>
+            Light Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Like">
+            <summary>
+            Like Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Like2">
+            <summary>
+            Like2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Link">
+            <summary>
+            Link Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Lintern">
+            <summary>
+            Lintern Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Lock">
+            <summary>
+            Lock Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Look">
+            <summary>
+            Look Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Loop">
+            <summary>
+            Loop Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.MagicWand">
+            <summary>
+            Magic wand Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Magnet">
+            <summary>
+            Magnet Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Mail">
+            <summary>
+            Mail Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.MailOpen">
+            <summary>
+            Mail open Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.MailOpenFile">
+            <summary>
+            Mail open file Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Male">
+            <summary>
+            Male Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Map">
+            <summary>
+            Map Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Map2">
+            <summary>
+            Map 2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.MapMarker">
+            <summary>
+            Map marker Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Medal">
+            <summary>
+            Medal Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Menu">
+            <summary>
+            Menu Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Micro">
+            <summary>
+            Micro Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Monitor">
+            <summary>
+            Monitor Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Moon">
+            <summary>
+            Moon Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.More">
+            <summary>
+            More Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Mouse">
+            <summary>
+            Mouse Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Music">
+            <summary>
+            Music Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Musiclist">
+            <summary>
+            Musiclist Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Mute">
+            <summary>
+            Mute Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Network">
+            <summary>
+            Network Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.NewsPaper">
+            <summary>
+            News paper Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Next">
+            <summary>
+            Next Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Next2">
+            <summary>
+            Next 2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Note">
+            <summary>
+            Note Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Note2">
+            <summary>
+            Note2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Notebook">
+            <summary>
+            Notebook Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Paint">
+            <summary>
+            Paint Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.PaintBucket">
+            <summary>
+            Paint bucket Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Paperclip">
+            <summary>
+            Paperclip Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.PaperPlane">
+            <summary>
+            Paper plane Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Pen">
+            <summary>
+            Pen Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Pendrive">
+            <summary>
+            Pendrive Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Phone">
+            <summary>
+            Phone Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Photo">
+            <summary>
+            Photo Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.PhotoGallery">
+            <summary>
+            Photo gallery Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Piggy">
+            <summary>
+            Piggy Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Pin">
+            <summary>
+            Pin Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Plane">
+            <summary>
+            Plane Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Play">
+            <summary>
+            Play Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Plug">
+            <summary>
+            Plug Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Plugin">
+            <summary>
+            Plugin Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Plus">
+            <summary>
+            Plus Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Portfolio">
+            <summary>
+            Portfolio Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Power">
+            <summary>
+            Power Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Prev">
+            <summary>
+            Prev Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Print">
+            <summary>
+            Print Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Radio">
+            <summary>
+            Radio Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Refresh">
+            <summary>
+            Refresh Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Refresh2">
+            <summary>
+            Refresh 2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.RefreshCloud">
+            <summary>
+            Refresh cloud Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Repeat">
+            <summary>
+            Repeat Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Ribbon">
+            <summary>
+            Ribbon Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.RightArrow">
+            <summary>
+            Right arrow Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Rocket">
+            <summary>
+            Rocket Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Safe">
+            <summary>
+            Safe Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Science">
+            <summary>
+            Science Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Scissors">
+            <summary>
+            Scissors Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Search">
+            <summary>
+            Search Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Server">
+            <summary>
+            Server Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Settings">
+            <summary>
+            Settings Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Share">
+            <summary>
+            Share Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Shield">
+            <summary>
+            Shield Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Shopbag">
+            <summary>
+            Shopbag Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Shuffle">
+            <summary>
+            Shuffle Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Signal">
+            <summary>
+            Signal Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Smile">
+            <summary>
+            Smile Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Speaker">
+            <summary>
+            Speaker Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Star">
+            <summary>
+            Star Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Stopwatch">
+            <summary>
+            Stopwatch Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Study">
+            <summary>
+            Study Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Sun">
+            <summary>
+            Sun Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Switch">
+            <summary>
+            Switch Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Target">
+            <summary>
+            Target Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Ticket">
+            <summary>
+            Ticket Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Timer">
+            <summary>
+            Timer Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Tools">
+            <summary>
+            Tools Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Trash">
+            <summary>
+            Trash Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Umbrella">
+            <summary>
+            Umbrella Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Unlock">
+            <summary>
+            Unlock Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.UpArrow">
+            <summary>
+            Up arrow Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Upload">
+            <summary>
+            Upload Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Usb">
+            <summary>
+            Usb Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.User">
+            <summary>
+            User Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.UserFemale">
+            <summary>
+            User female Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Users">
+            <summary>
+            Users Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Vector">
+            <summary>
+            Vector Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Video">
+            <summary>
+            Video Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Voicemail">
+            <summary>
+            Voicemail Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Volume">
+            <summary>
+            Volume Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Volume1">
+            <summary>
+            Volume1 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Volume2">
+            <summary>
+            Volume2 Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Wallet">
+            <summary>
+            Wallet Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Way">
+            <summary>
+            Way Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Wine">
+            <summary>
+            Wine Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.World">
+            <summary>
+            World Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.Wristwatch">
+            <summary>
+            Wristwatch Pe-icon-7-stroke icon.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType.ToString">
+            <summary>
+            Returns string representation of th font awesome type
+            </summary>
+            <returns>String representation of th font awesome type</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeExtensions">
+            <summary>
+            Represents support for adding a Pe-icon-7-stroke.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeExtensions.PeIcon7Stroke(System.Web.Mvc.HtmlHelper,IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType)">
+            <summary>
+            Returns a Pe-icon-7 component with the specified type.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="type">The type of the Pe-icon-7-stroke.</param>
+            <returns>A Pe-icon-7-stroke component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7Stroke">
+            <summary>
+            Represents Pe-icon-7-stroke component.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.PeIcon7Stroke.PeIcon7Stroke.#ctor(IssatisLab.Helpers.PeIcon7Stroke.PeIcon7StrokeType,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the component with the specified HTML helper.
+            </summary>
+            <param name="type">The type of the Pe-icon-7-stroke.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+    </members>
+</doc>

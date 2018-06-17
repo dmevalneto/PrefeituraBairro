@@ -1,0 +1,26 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.VerifyCodeViewModel
+@{
+    ViewBag.Title = "Verify";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (var f = Html.BootstrapBeginForm("VerifyCode", "Account", new { ReturnUrl = Model.ReturnUrl }, FormMethod.Post).Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin())
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("provider", @Model.Provider)
+    @Html.Hidden("rememberMe", @Model.RememberMe)
+    <h4>Enter verification code</h4>
+    <hr />
+    @Html.ValidationSummary()
+    @f.FormGroup().TextBoxFor(m => m.Code)
+    @f.FormGroup().CheckBoxFor(m => m.RememberBrowser)
+    @f.FormGroup().Submit("Submit")
+}
+
+@section Scripts
+{
+    <script src="/assets/js/lib/validation/jquery.validate.min.js"></script>
+    <script src="/assets/js/lib/validation/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/assets/js/lib/validation/jquery.validate.defaults.js"></script>
+}

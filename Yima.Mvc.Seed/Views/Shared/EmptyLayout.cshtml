@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="~/assets/img/favicon.png" type="image/x-icon">
+
+    <!--Css Files-->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/app.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/assets/css/pe-icon-7-stroke.css" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    @RenderBody()
+
+    <!--Js Files-->
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/modernizr.custom.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

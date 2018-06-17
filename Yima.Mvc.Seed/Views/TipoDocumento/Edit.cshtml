@@ -1,0 +1,28 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.TipoDocumento
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (var f = Html.BootstrapBeginForm().Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin())
+{
+    @Html.AntiForgeryToken()
+    
+    <h4>TipoDocumento</h4>
+    <hr />
+        @Html.HiddenFor(model => model.TipoDocumentoId)
+
+        @f.FormGroup().TextBoxFor(model => model.Descricao)
+		@f.FormGroup().Submit("Save")
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

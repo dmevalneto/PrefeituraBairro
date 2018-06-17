@@ -1,0 +1,648 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IssatisLab.Helpers.Core</name>
+    </assembly>
+    <members>
+        <member name="T:IssatisLab.Helpers.Core.JavaScriptArrayOption">
+            <summary>
+            Represents a javascript array object.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptArrayOption.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Initializes a new instance of the <see cref="T:IssatisLab.Helpers.Core.JavaScriptArrayOption" /> class with the specified values.
+            </summary>
+            <param name="values">The initial values.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptArrayOption.ToJavaScriptObject">
+            <summary>
+            Returns javascript representation of the object.
+            </summary>
+            <returns>Javascript representation of the object</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.JsonOption">
+            <summary>
+            Represents a JSON object.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JsonOption.Set(System.String,System.Object)">
+            <summary>
+            Adds the specified key and value to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JsonOption.Get(System.String)">
+            <summary>
+            Returns the current value of object with specified key.
+            </summary>
+            <param name="key">The key of object.</param>
+            <returns>Current value of object.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JsonOption.Remove(System.String)">
+            <summary>
+            Removes the specified key from the object.
+            </summary>
+            <param name="key"></param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is null.</exception>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JsonOption.Get">
+            <summary>
+            Returns all of the values of object.
+            </summary>
+            <returns>Current values of object.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JsonOption.ToJavaScriptObject">
+            <summary>
+            Returns JSON representation of the object.
+            </summary>
+            <returns>JSON representation of the object</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.JavaScriptObjectOption">
+            <summary>
+            Represents a javascript object.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Set(System.String,System.Double)">
+            <summary>
+            Adds the specified key and value to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Set(System.String,System.Boolean)">
+            <summary>
+            Adds the specified key and value to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Set(System.String,System.String)">
+            <summary>
+            Adds the specified key and value to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.SetRaw(System.String,System.String)">
+            <summary>
+            Adds the specified key and exact value with no change to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.SetRaw(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Adds the specified key and exact values with no change to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="values">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Set(System.String,System.Collections.Generic.IEnumerable{System.Double})">
+            <summary>
+            Adds the specified key and values to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="values">The object values.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Set(System.String,System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Adds the specified key and values to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="values">The object values.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Set(System.String,System.Collections.Generic.IEnumerable{System.Boolean})">
+            <summary>
+            Adds the specified key and values to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="values">The object values.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Set(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Adds the specified key and values to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="values">The object values.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Get(System.String)">
+            <summary>
+            Returns the current value of object with specified key.
+            </summary>
+            <param name="key">The key of object.</param>
+            <returns>Current value of object.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Remove(System.String)">
+            <summary>
+            Removes the specified key from the object.
+            </summary>
+            <param name="key"></param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is null.</exception>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.Get">
+            <summary>
+            Returns all of the values of object.
+            </summary>
+            <returns>Current values of object.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScriptObjectOption.ToJavaScriptObject">
+            <summary>
+            Returns javascript representation of the object.
+            </summary>
+            <returns>Javascript representation of the object</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.JavaScript`1">
+            <summary>
+            Represents a javascript component.
+            </summary>
+            <typeparam name="T">The type of the component.</typeparam>
+        </member>
+        <member name="P:IssatisLab.Helpers.Core.JavaScript`1.HtmlHelper">
+            <summary>
+            Current HTML helper instance
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Core.JavaScript`1.Properties">
+            <summary>
+            Properties of this component. These have no automatic effect on output.
+            You can store values here and change the output based on them.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the javascript.
+            </summary>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.SetOption(System.String,System.Double)">
+            <summary>
+            Adds an option with the specified key and value.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.SetOption(System.String,System.Boolean)">
+            <summary>
+            Adds an option with the specified key and value.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.SetOption(System.String,System.String)">
+            <summary>
+            Adds an option with the specified key and value.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.SetOptionRaw(System.String,System.String)">
+            <summary>
+            Adds an option with the specified key and exact value with no change to the object.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="value">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.SetOption(System.String,System.Collections.Generic.IEnumerable{System.Double})">
+            <summary>
+            Adds an option with the specified key and values.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="values">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.SetOption(System.String,System.Collections.Generic.IEnumerable{System.Boolean})">
+            <summary>
+            Adds an option with the specified key and values.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="values">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.SetOption(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Adds an option with the specified key and values.
+            If the key exist will change the value.
+            </summary>
+            <param name="key">The object key.</param>
+            <param name="values">The object value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.GetJavaScriptObject">
+            <summary>
+            Returns javascript representation of the object.
+            </summary>
+            <returns>Javascript representation of the object</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.JavaScript`1.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.ParentComponent`1">
+            <summary>
+            Represents base class for all parent components.
+            </summary>
+            <typeparam name="T">The type of the component.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the component.
+            </summary>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.AddChild(IssatisLab.Helpers.Core.IHtml)">
+            <summary>
+            Adds the specified child to the component.
+            </summary>
+            <param name="child">The child.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.AddChild(System.Func{System.Object,System.Web.WebPages.HelperResult})">
+            <summary>
+            Adds the specified child to the component.
+            </summary>
+            <param name="child">The child.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.AddChild(System.String)">
+            <summary>
+            Adds the specified child to the component.
+            </summary>
+            <param name="child">The child.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.AddChild(IssatisLab.Helpers.Core.IHtml,System.Int32)">
+            <summary>
+            Adds the specified child to the component with the specified weight.
+            </summary>
+            <param name="child">The child.</param>
+            <param name="weight">The weight of the child.
+            Use high weights to add a child to the last and low weights to add the child to the first.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.AddChild(System.Func{System.Object,System.Web.WebPages.HelperResult},System.Int32)">
+            <summary>
+            Adds the specified child to the component with the specified weight.
+            </summary>
+            <param name="child">The child.</param>
+            <param name="weight">The weight of the child.
+            Use high weights to add a child to the last and low weights to add the child to the first.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.AddChild(System.String,System.Int32)">
+            <summary>
+            Adds the specified child to the component with the specified weight.
+            </summary>
+            <param name="child">The child.</param>
+            <param name="weight">The weight of the child.
+            Use high weights to add a child to the last and low weights to add the child to the first.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.GetChildren">
+            <summary>
+            Returns all the children.
+            </summary>
+            <returns>All the children.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.RemoveChildren">
+            <summary>
+            Removes all the children.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.GetBaseTag">
+            <summary>
+            Returns Base HTML tag for the current component.
+            </summary>
+            <returns>Base HTML tag of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current component.
+            </summary>
+            <returns>HTML representation of the current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.ParentComponent`1.GetChildrenString">
+            <summary>
+            Returns HTML representation of the children.
+            </summary>
+            <returns>HTML representation of the children.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.IIcon`1">
+            <summary>
+            Represents an icon components.
+            </summary>
+            <typeparam name="T">The type of the icon.</typeparam>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.RandomIdGenerator">
+            <summary>
+            Helper class for generating random Id for the HTML elements.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Core.RandomIdGenerator.Instance">
+            <summary>
+            A singleton instance of random Id generator
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.RandomIdGenerator.GetId">
+            <summary>
+            Returns a new Id.
+            </summary>
+            <returns>A new Id</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.RawHtml">
+            <summary>
+            Represents raw HTML.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.RawHtml.#ctor(System.Web.WebPages.HelperResult)">
+            <summary>
+            Initializes a new instance of rah HTML with the specified value.
+            </summary>
+            <param name="value">The value of the raw HTML.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.RawHtml.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of rah HTML with the specified value.
+            </summary>
+            <param name="value">The value of the raw HTML.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.RawHtml.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current object.
+            </summary>
+            <returns>HTML representation of the current object.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.Component`1">
+            <summary>
+            Represents base class for all components.
+            </summary>
+            <typeparam name="T">The type of the component.</typeparam>
+        </member>
+        <member name="P:IssatisLab.Helpers.Core.Component`1.HtmlHelper">
+            <summary>
+            Current HTML helper instance
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Core.Component`1.Properties">
+            <summary>
+            Properties of this component. These have no automatic effect on output.
+            You can store values here and change the output based on them.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.#ctor(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the component with the specified HTML helper.
+            </summary>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.AddCssClass(System.String)">
+            <summary>
+            Appends the specified CSS class to current component.
+            </summary>
+            <param name="className">The CSS class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.RemoveCssClass(System.String)">
+            <summary>
+            Removes the specified CSS class from current component.
+            </summary>
+            <param name="className">The CSS class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.RemoveCssClasses">
+            <summary>
+            Removes all the CSS classes from current component.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.SetAttribute(System.String,System.Object)">
+            <summary>
+            Sets the attribute with the specified key to the specified value.
+            If the attribute doesn't exist will be added.
+            </summary>
+            <param name="key">The attribute name.</param>
+            <param name="value">The value if the attribute.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.GetAttribute(System.String)">
+            <summary>
+            Returns the current value of the specified attribute.
+            </summary>
+            <param name="key">The attribute key.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.SetAttributes(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Sets the multiple attributes with the specified keys to the specified value.
+            If the attribute doesn't exist will be added.
+            </summary>
+            <param name="htmlAttributes">The attributes and their values.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.RemoveAttribute(System.String)">
+            <summary>
+            Removes the specified attribute.
+            </summary>
+            <param name="key">The key of the attribute.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is null.</exception>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.GetAttributes">
+            <summary>
+            Returns all of the attributes and their values. 
+            </summary>
+            <returns>All of the attributes and their values.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            Returns null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current component.
+            </summary>
+            <returns>HTML representation of the current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.Component`1.ToHtmlString(System.String)">
+            <summary>
+            Adds markup of current layer to the specified HTML and returns it.
+            </summary>
+            <param name="html">The specified HTML.</param>
+            <returns>Specified HTML plus the current layers markup.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.HtmlAttribute">
+            <summary>
+            Represents attributes of a HTML element.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.HtmlAttribute.#ctor(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:IssatisLab.Helpers.Core.HtmlAttribute" /> class with the specified HTML attributes.
+            </summary>
+            <param name="htmlAttributes">The initial HTML attributes.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.HtmlAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:IssatisLab.Helpers.Core.HtmlAttribute" /> class that is empty.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.HtmlAttribute.Set(System.String,System.Object)">
+            <summary>
+            Sets the attribute with the specified key to the specified value.
+            If the attribute doesn't exist will be added.
+            </summary>
+            <param name="key">The key of the attribute.</param>
+            <param name="value">The value of the attribute.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.HtmlAttribute.Append(System.String,System.Object)">
+            <summary>
+            Appends the specified value to the HTML attribute with specified key.
+            If the attribute doesn't exist will be added.
+            </summary>
+            <param name="key">The key of the attribute.</param>
+            <param name="value">The value of the attribute.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.HtmlAttribute.Remove(System.String)">
+            <summary>
+            Removes the specified attribute.
+            </summary>
+            <param name="key">The key of the attribute.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is null.</exception>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.HtmlAttribute.Remove(System.String,System.Object)">
+            <summary>
+            Removes the specified attribute value.
+            </summary>
+            <param name="key">The key of the attribute.</param>
+            <param name="value">The value of the attribute that will be removed.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.HtmlAttribute.Get(System.String)">
+            <summary>
+            Returns the current value of the specified attribute.
+            </summary>
+            <param name="key">The key of the attribute.</param>
+            <returns>The value associated with the specified attribute.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.HtmlAttribute.GetAll">
+            <summary>
+            Returns all of the attributes and their values. 
+            </summary>
+            <returns>All of the attributes and their values.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.TagBuilderHelper">
+            <summary>
+            Helper class for <see cref="T:System.Web.Mvc.TagBuilder" />
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.TagBuilderHelper.Apply(System.Web.Mvc.TagBuilder,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Applies the specified HTML attributes to the current tag builder instance.
+            </summary>
+            <param name="tagBuilder">The tag builder instance that this method extends.</param>
+            <param name="htmlAttributes">The HTML attributes to apply.</param>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.IComponent`1">
+            <summary>
+            Represents all components.
+            </summary>
+            <typeparam name="T">The type of the component.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.IComponent`1.AddCssClass(System.String)">
+            <summary>
+            Appends the specified CSS class to current component.
+            </summary>
+            <param name="className">The CSS class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.IComponent`1.RemoveCssClass(System.String)">
+            <summary>
+            Removes the specified CSS class from current component.
+            </summary>
+            <param name="className">The CSS class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.IComponent`1.RemoveCssClasses">
+            <summary>
+            Removes all the CSS classes from current component.
+            </summary>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.IComponent`1.SetAttribute(System.String,System.Object)">
+            <summary>
+            Sets the attribute with the specified key to the specified value.
+            If the attribute doesn't exist will be added.
+            </summary>
+            <param name="key">The attribute name.</param>
+            <param name="value">The value if the attribute.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.IComponent`1.GetAttribute(System.String)">
+            <summary>
+            Returns the current value of the specified attribute.
+            </summary>
+            <param name="key">The attribute key.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.IComponent`1.GetBaseClass">
+            <summary>
+            Return base CSS class name for current component.
+            Return null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.IHtml">
+            <summary>
+            Represents anything that can displayed as HTML.
+            </summary>
+        </member>
+        <member name="T:IssatisLab.Helpers.Core.IParentComponent`1">
+            <summary>
+            Represents all components that can have children.
+            </summary>
+            <typeparam name="T">The type of the component.</typeparam>
+        </member>
+        <member name="M:IssatisLab.Helpers.Core.IParentComponent`1.AddChild(IssatisLab.Helpers.Core.IHtml)">
+            <summary>
+            Adds the specified child to the current component.
+            </summary>
+            <param name="child">The value of child.</param>
+            <returns>Current component.</returns>
+        </member>
+    </members>
+</doc>

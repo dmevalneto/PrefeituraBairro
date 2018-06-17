@@ -1,0 +1,1378 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IssatisLab.Helpers.Chart</name>
+    </assembly>
+    <members>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistExtensions">
+            <summary>
+            Represents support for adding a chartist chart.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistExtensions.Chartist(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a chartist chart with the specified HTML "id" attribute.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="id">The value of the HTML "id" attribute.</param>
+            <returns>A chartist chart.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistExtensions.ChartistBarChart(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a chartist bar chart.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A chartist bar chart.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistExtensions.ChartistLineChart(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a chartist line chart.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A chartist line chart.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistExtensions.ChartistPieChart(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Returns a chartist pie chart.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <returns>A chartist pie chart.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistExtensions.ChartistScript(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Returns a chartist script with the specified selector.
+            </summary>
+            <param name="htmlHelper">The HTML helper instance that this method extends.</param>
+            <param name="selector">The value of the selector.</param>
+            <returns>A chartist pie chart.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.Chartist">
+            <summary>
+            Represents a chartist component
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.Chartist.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the chartist component with the specified id.
+            </summary>
+            <param name="id">The value of HTML "id" attribute.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.Chartist.GetBaseClass">
+            <summary>
+            Returns base CSS class name for current component.
+            Returns null if not applicable.
+            </summary>
+            <returns>The base CSS class of current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.Chartist.GetBaseTag">
+            <summary>
+            Returns HTML representation of the current component.
+            </summary>
+            <returns>HTML representation of the current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistScript">
+            <summary>
+            Represents chartist script component
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistScript.Selector">
+            <summary>
+            The value of the selector.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistScript.Chart">
+            <summary>
+            The value of the chart.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistScript.Data">
+            <summary>
+            Data of the chart.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistScript.ResponsiveOptions">
+            <summary>
+            Responsive options value.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistScript.#ctor(System.String,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the script with the specified selector and HTML helper.
+            </summary>
+            <param name="selector">The value of the selector.</param>
+            <param name="htmlHelper">The value of the HTML helper.</param>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistScript.Labels(System.Collections.IEnumerable)">
+            <summary>
+            Sets the labels value of the chart.
+            </summary>
+            <param name="labels">The value of the labels.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistScript.Series(System.Collections.IEnumerable)">
+            <summary>
+            Sets the series value.
+            </summary>
+            <param name="series">The value of the series</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistScript.Type(IssatisLab.Helpers.Chart.ChartistChartBase)">
+            <summary>
+            Sets the type of the chart.
+            </summary>
+            <param name="chart">The type of the chart.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistScript.AddResponsiveOptions(System.String,IssatisLab.Helpers.Chart.ChartistChartBase)">
+            <summary>
+            Adds responsive options for the specified media query.
+            </summary>
+            <param name="mediaQuery">The value of the media query.</param>
+            <param name="responsiveOptions">The value of the responsive options.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistScript.ToHtmlString">
+            <summary>
+            Returns HTML representation of the current component.
+            </summary>
+            <returns>HTML representation of the current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistChartBase">
+            <summary>
+            Represents a chartist chart type.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistChartBase.ChartType">
+            <summary>
+            The chart type name.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistChartBase.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>String Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistStepScaleAxis">
+            <summary>
+            Represents fixed scale axis.
+            The step axis for step based charts like bar chart or step based line charts. It uses a fixed amount of ticks that will be equally distributed across the whole axis length. The projection is done using the index of the data value rather than the value itself and therefore it's only useful for distribution purpose.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistStepScaleAxis.Ticks(System.String[])">
+            <summary>
+            Sets the ticks value.
+            Ticks to be used to distribute across the axis length. As this axis type relies on the index of the value rather than the value, arbitrary data that can be converted to a string can be used as ticks.
+            </summary>
+            <param name="ticks">The value of ticks.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistStepScaleAxis.Stretch(System.Boolean)">
+            <summary>
+            Sets the stretch value.
+            If set to true the full width will be used to distribute the values where the last value will be at the maximum of the axis length. If false the spaces between the ticks will be evenly distributed instead.
+            </summary>
+            <param name="stretch">The value of stretch.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistStepScaleAxis.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>String Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistFixedScaleAxis">
+            <summary>
+            Represents fixed scale axis.
+            The fixed scale axis uses standard linear projection of values along an axis. It makes use of a divisor option to divide the range provided from the minimum and maximum value or the options high and low that will override the computed minimum and maximum.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistFixedScaleAxis.High(System.Double)">
+            <summary>
+            Sets the high value.
+            If high is specified then the axis will display values explicitly up to this value and the computed maximum from the data is ignored.
+            </summary>
+            <param name="high">The value of high.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistFixedScaleAxis.Low(System.Double)">
+            <summary>
+            Sets the low value.
+            If low is specified then the axis will display values explicitly down to this value and the computed minimum from the data is ignored.
+            </summary>
+            <param name="low">The value of low.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistFixedScaleAxis.Divisor(System.Double)">
+            <summary>
+            Sets the divisor value.
+            If specified then the value range determined from minimum to maximum (or low and high) will be divided by this number and ticks will be generated at those division points. The default divisor is 1.
+            </summary>
+            <param name="divisor">The value of divisor.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistFixedScaleAxis.Ticks(System.Int32[])">
+            <summary>
+            Sets the ticks value.
+            If ticks is explicitly set, then the axis will not compute the ticks with the divisor, but directly use the data in ticks to determine at what points on the axis a tick need to be generated.
+            </summary>
+            <param name="ticks">The value of ticks.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistFixedScaleAxis.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>string Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistAutoScaleAxis">
+            <summary>
+            Represents auto scale axis.
+            The auto scale axis uses standard linear scale projection of values along an axis. It uses order of magnitude to find a scale automatically and evaluates the available space in order to find the perfect amount of ticks for your chart.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistAutoScaleAxis.High(System.Double)">
+            <summary>
+            Makes the chart axis to display values explicitly up to this value and the computed maximum from the data is ignored
+            </summary>
+            <param name="high">The value of the high.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistAutoScaleAxis.Low(System.Double)">
+            <summary>
+            Makes the chart axis to display values explicitly down to this value and the computed minimum from the data is ignored
+            </summary>
+            <param name="low">The value of the low.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistAutoScaleAxis.ScaleMinSpace(System.Int32)">
+            <summary>
+            Sets the minimum required space (in pixel).
+            The amount of ticks on the scale will be determined so that as many ticks as possible will be displayed, while not violating this minimum required space (in pixel).
+            This option will be used when finding the right scale division settings. 
+            </summary>
+            <param name="scaleMinSpace">The value of the scale min space.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistAutoScaleAxis.OnlyInteger(System.Boolean)">
+            <summary>
+            Makes the scale to be generated with whole numbers only.
+            </summary>
+            <param name="onlyInteger">The value of the only integer.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistAutoScaleAxis.ReferenceValue(System.Double)">
+            <summary>
+            Adds a reference value to the chart. This value will always be on the chart. This is especially useful on bipolar charts where the bipolar center always needs to be part of the chart.
+            </summary>
+            <param name="referenceValue">The value of the reference value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistAutoScaleAxis.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>String Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistBarChart">
+            <summary>
+            Represents bar chart.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistBarChart.ChartType">
+            <summary>
+            The chart type name.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXOption">
+            <summary>
+            X axis options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYOption">
+            <summary>
+            Y axis options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistBarChart.ChartPaddingOption">
+            <summary>
+            Chart padding options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNamesOption">
+            <summary>
+            Class names options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistBarChart.Option">
+            <summary>
+            Options.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.#ctor">
+            <summary>
+            Initializes a new instance of the component.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXOffset(System.Int32)">
+            <summary>
+            Sets the offset value.
+            The offset of the chart drawing area to the border of the container.
+            </summary>
+            <param name="offset">The value of offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXPosition(System.String)">
+            <summary>
+            Sets the position value.
+            Position where labels are placed. Can be set to `start` or `end` where `start` is equivalent to left or top on vertical axis and `end` is equivalent to right or bottom on horizontal axis.
+            </summary>
+            <param name="value">The value of position.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXLabelOffset(System.Int32,System.Int32)">
+            <summary>
+            Sets the label offset value.
+            Allows you to correct label positioning on this axis by positive or negative x and y offset.
+            </summary>
+            <param name="x">The x value of label offset.</param>
+            <param name="y">The y value of label offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXShowLabel(System.Boolean)">
+            <summary>
+            Sets whether labels should be shown or not.
+            </summary>
+            <param name="value">The value of show label.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXShowGrid(System.Boolean)">
+            <summary>
+            Sets whether the axis grid should be drawn or not.
+            </summary>
+            <param name="value">The value of show grid.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXLabelInterpolationFnc(System.String)">
+            <summary>
+            Sets interpolation function that allows you to intercept the value from the axis label
+            </summary>
+            <param name="labelInterpolationFnc">The value of label interpolation function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXScaleMinSpace(System.Int32)">
+            <summary>
+            Sets the minimum width in pixel of the scale steps
+            </summary>
+            <param name="scaleMinSpace">The value of scale min space.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisXOnlyInteger(System.Boolean)">
+            <summary>
+            Makes the chart to only use integer values (whole numbers) for the scale steps.
+            </summary>
+            <param name="value">The value of only integer.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYOffset(System.Int32)">
+            <summary>
+            Sets the offset of the chart drawing area to the border of the container.
+            </summary>
+            <param name="offset">The value of the offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYPosition(System.String)">
+            <summary>
+            Sets the position where labels are placed. Can be set to `start` or `end` where `start` is equivalent to left or top on vertical axis and `end` is equivalent to right or bottom on horizontal axis.
+            </summary>
+            <param name="value">The value of the position.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYLabelOffset(System.Int32,System.Int32)">
+            <summary>
+            Allows you to correct label positioning on this axis by positive or negative x and y offset.
+            </summary>
+            <param name="x">The x of the label offset.</param>
+            <param name="y">The y of the label offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYShowLabel(System.Boolean)">
+            <summary>
+            Sets whether labels should be shown or not.
+            </summary>
+            <param name="value">The value of show label.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYShowGrid(System.Boolean)">
+            <summary>
+            Sets whether the axis grid should be drawn or not.
+            </summary>
+            <param name="value">The value of show grid.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYLabelInterpolationFnc(System.String)">
+            <summary>
+            Sets interpolation function that allows you to intercept the value from the axis label
+            </summary>
+            <param name="labelInterpolationFnc">The value of label interpolation function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYScaleMinSpace(System.Int32)">
+            <summary>
+            Sets the minimum width in pixel of the scale steps
+            </summary>
+            <param name="scaleMinSpace">The value of scale min space.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.AxisYOnlyInteger(System.Boolean)">
+            <summary>
+            Makes the chart to only use integer values (whole numbers) for the scale steps.
+            </summary>
+            <param name="value">The value of only integer.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.Width(System.String)">
+            <summary>
+            Sets a fixed width for the chart as a string (i.e. '100px' or '50%')
+            </summary>
+            <param name="width">The value of the width.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.Height(System.String)">
+            <summary>
+            Sets a fixed height for the chart as a string (i.e. '100px' or '50%')
+            </summary>
+            <param name="height">The value of the height.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.High(System.Int32)">
+            <summary>
+            Overrides the natural high of the chart allows you to zoom in or limit the charts highest displayed value
+            </summary>
+            <param name="high">The value of the high.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.Low(System.Int32)">
+            <summary>
+            Overrides the natural low of the chart allows you to zoom in or limit the charts lowest displayed value
+            </summary>
+            <param name="low">The value of the low.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.OnlyInteger(System.Boolean)">
+            <summary>
+            Makes chart to only use integer values (whole numbers) for the scale steps
+            </summary>
+            <param name="value">The value of the only integer.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ChartPaddingTop(System.Int32)">
+            <summary>
+            Sets the top padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="top">The value of the top padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ChartPaddingRight(System.Int32)">
+            <summary>
+            Sets the right padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="right">The value of the right padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ChartPaddingBottom(System.Int32)">
+            <summary>
+            Sets the bottom padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="bottom">The value of the bottom padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ChartPaddingLeft(System.Int32)">
+            <summary>
+            Sets the left padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="left">The value of the left padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.SeriesBarDistance(System.Int32)">
+            <summary>
+            Sets the distance in pixel of bars in a group
+            </summary>
+            <param name="seriesBarDistance">The value of the series bar distance.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.StackBars(System.Boolean)">
+            <summary>
+            Sets the series bars to be stacked. Check the `stackMode` for further stacking options.
+            </summary>
+            <param name="value">The value of the stack bars.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.HorizontalBars(System.Boolean)">
+            <summary>
+            Inverts the axes of the bar chart in order to draw a horizontal bar chart. Be aware that you also need to invert your axis settings as the Y Axis will now display the labels and the X Axis the values.
+            </summary>
+            <param name="value">The value of the horizontal bars.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.DistributeSeries(System.Boolean)">
+            <summary>
+            If set to true then each bar will represent a series and the data array is expected to be a one dimensional array of data values rather than a series array of series. This is useful if the bar chart should represent a profile rather than some data over time.
+            </summary>
+            <param name="value">The value of the distribute series.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ReverseData(System.Boolean)">
+            <summary>
+            If true the whole data is reversed including labels, the series order as well as the whole series data arrays.
+            </summary>
+            <param name="value">The value of the reverse data.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameChart(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the chart class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameHorizontalBars(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the horizontal bars class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameLabel(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the label class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameLabelGroup(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the label group class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameSeries(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the series class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameBar(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the bar class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameGrid(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the grid class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameGridGroup(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the grid group class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameVertical(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the vertical class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameHorizontal(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the horizontal class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameStart(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the start class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ClassNameEnd(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the end class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.Plugins(System.String[])">
+            <summary>
+            Sets the plugins of the chart.
+            </summary>
+            <param name="plugins">The value of the plugins.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistBarChart.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>String Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistInterpolationBase">
+            <summary>
+            Represents path interpolation type.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistInterpolationBase.Option">
+            <summary>
+            Options value.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistInterpolationBase.InterpolationType">
+            <summary>
+            The path interpolation type value.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistInterpolationBase.#ctor">
+            <summary>
+            Initializes a new instance of the path interpolation type.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistInterpolationBase.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>string Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistInterpolationNone">
+            <summary>
+            Represents path interpolation type "none"
+            This interpolation function does not smooth the path and the result is only containing lines and no curves.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistInterpolationNone.InterpolationType">
+            <summary>
+            The path interpolation type value.
+            </summary>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistInterpolationSimple">
+            <summary>
+            Represents path interpolation type "simple"
+            Simple smoothing creates horizontal handles that are positioned with a fraction of the length between two data points. You can use the divisor option to specify the amount of smoothing.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistInterpolationSimple.InterpolationType">
+            <summary>
+            The path interpolation type value.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistInterpolationSimple.Divisor(System.Int32)">
+            <summary>
+            Sets the value of the divisor.
+            </summary>
+            <param name="divisor">The value of the divisor.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistInterpolationCardinal">
+            <summary>
+            Represents path interpolation type "cardinal"
+            Cardinal / Catmull-Rome spline interpolation is the default smoothing function in Chartist. It produces nice results where the splines will always meet the points. It produces some artifacts though when data values are increased or decreased rapidly. The line may not follow a very accurate path and if the line should be accurate this smoothing function does not produce the best results.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistInterpolationCardinal.InterpolationType">
+            <summary>
+            The path interpolation type value.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistInterpolationCardinal.Tension(System.Int32)">
+            <summary>
+            Sets the value of the tension.
+            </summary>
+            <param name="tension">The value of the tension.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistInterpolationStep">
+            <summary>
+            Represents path interpolation type "step"
+            Step interpolation will cause the line chart to move in steps rather than diagonal or smoothed lines. This interpolation will create additional points that will also be drawn when the showPoint option is enabled.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistInterpolationStep.InterpolationType">
+            <summary>
+            The path interpolation type value.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistInterpolationStep.Postpone(System.Boolean)">
+            <summary>
+            Sets the value of the postpone.
+            </summary>
+            <param name="postpone">The value of the postpone.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistAxisScaleTypeBase">
+            <summary>
+            Represents axis scale type
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistAxisScaleTypeBase.Option">
+            <summary>
+            Options value
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistAxisScaleTypeBase.#ctor">
+            <summary>
+            Initializes a new instance of the scale type
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistAxisScaleTypeBase.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>String Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistLineChart">
+            <summary>
+            Represents line chart.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistLineChart.ChartType">
+            <summary>
+            The chart type name.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistLineChart.AxisXOption">
+            <summary>
+            X axis options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYOption">
+            <summary>
+            Y axis options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistLineChart.ChartPaddingOption">
+            <summary>
+            Chart padding options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNamesOption">
+            <summary>
+            Class names options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistLineChart.Option">
+            <summary>
+            Options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistLineChart.SeriesOption">
+            <summary>
+            Series options.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.#ctor">
+            <summary>
+            Initializes a new instance of the component.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisXOffset(System.Int32)">
+            <summary>
+            Sets the offset value.
+            The offset of the chart drawing area to the border of the container.
+            </summary>
+            <param name="offset">The value of offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisXPosition(System.String)">
+            <summary>
+            Sets the position value.
+            Position where labels are placed. Can be set to `start` or `end` where `start` is equivalent to left or top on vertical axis and `end` is equivalent to right or bottom on horizontal axis.
+            </summary>
+            <param name="value">The value of position.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisXLabelOffset(System.Int32,System.Int32)">
+            <summary>
+            Sets the label offset value.
+            Allows you to correct label positioning on this axis by positive or negative x and y offset.
+            </summary>
+            <param name="x">The x value of label offset.</param>
+            <param name="y">The y value of label offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisXShowLabel(System.Boolean)">
+            <summary>
+            Sets whether labels should be shown or not.
+            </summary>
+            <param name="value">The value of show label.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisXShowGrid(System.Boolean)">
+            <summary>
+            Sets whether the axis grid should be drawn or not.
+            </summary>
+            <param name="value">The value of show grid.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisXLabelInterpolationFnc(System.String)">
+            <summary>
+            Sets interpolation function that allows you to intercept the value from the axis label
+            </summary>
+            <param name="labelInterpolationFnc">The value of label interpolation function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisXType(IssatisLab.Helpers.Chart.ChartistAxisScaleTypeBase)">
+            <summary>
+            Set the axis type to be used to project values on this axis. If not defined, Chartist.StepAxis will be used for the X-Axis, where the ticks option will be set to the labels in the data and the stretch option will be set to the global fullWidth option.
+            </summary>
+            <param name="axisScaleType">The value of the x axis type.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYOffset(System.Int32)">
+            <summary>
+            Sets the offset of the chart drawing area to the border of the container.
+            </summary>
+            <param name="offset">The value of the offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYPosition(System.String)">
+            <summary>
+            Sets the position where labels are placed. Can be set to `start` or `end` where `start` is equivalent to left or top on vertical axis and `end` is equivalent to right or bottom on horizontal axis.
+            </summary>
+            <param name="value">The value of the position.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYLabelOffset(System.Int32,System.Int32)">
+            <summary>
+            Allows you to correct label positioning on this axis by positive or negative x and y offset.
+            </summary>
+            <param name="x">The x of the label offset.</param>
+            <param name="y">The y of the label offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYShowLabel(System.Boolean)">
+            <summary>
+            Sets whether labels should be shown or not.
+            </summary>
+            <param name="value">The value of show label.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYShowGrid(System.Boolean)">
+            <summary>
+            Sets whether the axis grid should be drawn or not.
+            </summary>
+            <param name="value">The value of show grid.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYLabelInterpolationFnc(System.String)">
+            <summary>
+            Sets interpolation function that allows you to intercept the value from the axis label
+            </summary>
+            <param name="labelInterpolationFnc">The value of label interpolation function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYType(IssatisLab.Helpers.Chart.ChartistAxisScaleTypeBase)">
+            <summary>
+            Sets the axis type to be used to project values on this axis. If not defined, Chartist.AutoScaleAxis will be used for the Y-Axis, where the high and low options will be set to the global high and low options.
+            </summary>
+            <param name="axisScaleType">The value of the x axis type.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYScaleMinSpace(System.Int32)">
+            <summary>
+            Sets the minimum width in pixel of the scale steps
+            </summary>
+            <param name="scaleMinSpace">The value of scale min space.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AxisYOnlyInteger(System.Boolean)">
+            <summary>
+            Makes the chart to only use integer values (whole numbers) for the scale steps.
+            </summary>
+            <param name="value">The value of only integer.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.Width(System.String)">
+            <summary>
+            Sets a fixed width for the chart as a string (i.e. '100px' or '50%')
+            </summary>
+            <param name="width">The value of the width.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.Height(System.String)">
+            <summary>
+            Sets a fixed height for the chart as a string (i.e. '100px' or '50%')
+            </summary>
+            <param name="height">The value of the height.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ShowLine(System.Boolean)">
+            <summary>
+            Sets whether the line should be drawn or not.
+            </summary>
+            <param name="showLine">The value of the show line.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ShowPoint(System.Boolean)">
+            <summary>
+            Sets whether the dots should be drawn or not
+            </summary>
+            <param name="showPoint">The value of the show point.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ShowArea(System.Boolean)">
+            <summary>
+            Sets whether the line chart should draw an area
+            </summary>
+            <param name="showArea">The value of the show area.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.AreaBase(System.Int32)">
+            <summary>
+            Sets the base for the area chart that will be used to close the area shape (is normally 0)
+            </summary>
+            <param name="areaBase">The value of the area base.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.LineSmooth(System.Boolean)">
+            <summary>
+            Sets whether the lines should be smoothed. True will result in smoothing using the default smoothing interpolation function Chartist.Interpolation.cardinal and false results in Chartist.Interpolation.none. You can also choose other smoothing / interpolation functions available in the Chartist.Interpolation module, or write your own interpolation function.
+            </summary>
+            <param name="lineSmooth">The value of the line smooth.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.Low(System.Int32)">
+            <summary>
+            Overrides the natural low of the chart allows you to zoom in or limit the charts lowest displayed value
+            </summary>
+            <param name="low">The value of the low.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.High(System.Int32)">
+            <summary>
+            Overrides the natural high of the chart allows you to zoom in or limit the charts highest displayed value
+            </summary>
+            <param name="high">The value of the high.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ChartPaddingTop(System.Int32)">
+            <summary>
+            Sets the top padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="top">The value of the top padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ChartPaddingRight(System.Int32)">
+            <summary>
+            Sets the right padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="right">The value of the right padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ChartPaddingBottom(System.Int32)">
+            <summary>
+            Sets the bottom padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="bottom">The value of the bottom padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ChartPaddingLeft(System.Int32)">
+            <summary>
+            Sets the left padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="left">The value of the left padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.FullWidth(System.Boolean)">
+            <summary>
+            When set to true, the last grid line on the x-axis is not drawn and the chart elements will expand to the full available width of the chart. For the last label to be drawn correctly you might need to add chart padding or offset the last label with a draw event handler.
+            </summary>
+            <param name="fullWidth">The value of the full width.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ReverseData(System.Boolean)">
+            <summary>
+            If true the whole data is reversed including labels, the series order as well as the whole series data arrays.
+            </summary>
+            <param name="value">The value of the reverse data.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameChart(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the chart class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameLabel(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the label class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameLabelGroup(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the label group class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameSeries(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the series class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameLine(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the line class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNamePoint(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the point class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameArea(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the area class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameGrid(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the grid class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameGridGroup(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the grid group class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameVertical(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the vertical class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameHorizontal(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the horizontal class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameStart(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the start class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ClassNameEnd(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the end class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.Plugins(System.String[])">
+            <summary>
+            Sets the plugins of the chart.
+            </summary>
+            <param name="plugins">The value of the plugins.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.LineSmooth(IssatisLab.Helpers.Chart.ChartistInterpolationBase)">
+            <summary>
+            Sets the specific interpolation function with configuration from the Chartist.Interpolation module
+            </summary>
+            <param name="lineSmooth">Interpolation function value.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.SeriesOptions(System.String,IssatisLab.Helpers.Chart.ChartistLineChart)">
+            <summary>
+            Overrides options based on the series.
+            </summary>
+            <param name="name">Series name.</param>
+            <param name="options">The overriding options.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistLineChart.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>String Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistPieChart">
+            <summary>
+            Represents pie chart.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistPieChart.ChartType">
+            <summary>
+            The chart type name.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistPieChart.ChartPaddingOption">
+            <summary>
+            Chart padding options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistPieChart.ClassNamesOption">
+            <summary>
+            Class names options.
+            </summary>
+        </member>
+        <member name="P:IssatisLab.Helpers.Chart.ChartistPieChart.Option">
+            <summary>
+            Options.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.#ctor">
+            <summary>
+            Initializes a new instance of the component.
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.Width(System.String)">
+            <summary>
+            Sets a fixed width for the chart as a string (i.e. '100px' or '50%')
+            </summary>
+            <param name="width">The value of the width.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.Height(System.String)">
+            <summary>
+            Sets a fixed height for the chart as a string (i.e. '100px' or '50%')
+            </summary>
+            <param name="height">The value of the height.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ChartPaddingTop(System.Int32)">
+            <summary>
+            Sets the top padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="top">The value of the top padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ChartPaddingRight(System.Int32)">
+            <summary>
+            Sets the right padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="right">The value of the right padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ChartPaddingBottom(System.Int32)">
+            <summary>
+            Sets the bottom padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="bottom">The value of the bottom padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ChartPaddingLeft(System.Int32)">
+            <summary>
+            Sets the left padding of the chart drawing area to the container element and labels
+            </summary>
+            <param name="left">The value of the left padding.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.StartAngle(System.Int32)">
+            <summary>
+            Sets the start angle of the pie chart in degrees where 0 points north. A higher value offsets the start angle clockwise.
+            </summary>
+            <param name="value">The value of the start angle.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.Total(System.Int32)">
+            <summary>
+            Sets the total value. An optional total you can specify. By specifying a total value, the sum of the values in the series must be this total in order to draw a full pie. You can use this parameter to draw only parts of a pie or gauge charts.
+            </summary>
+            <param name="value">The value of the total.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.Donut(System.Boolean)">
+            <summary>
+            Sets whether the donut CSS classes will be used and strokes will be drawn instead of pie slices.
+            </summary>
+            <param name="value">The value of the donut.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.DonutWidth(System.Int32)">
+            <summary>
+            Sets the donut stroke width, This option can be set as number or string to specify a relative width (i.e. 100 or '30%').
+            </summary>
+            <param name="value">The value of the donut width.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ShowLabel(System.Boolean)">
+            <summary>
+            Sets whether labels should be shown or not.
+            </summary>
+            <param name="value">The value of show label.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.LabelOffset(System.Int32)">
+            <summary>
+            Sets the label position offset from the standard position which is half distance of the radius. This value can be either positive or negative. Positive values will position the label away from the center.
+            </summary>
+            <param name="value">The value of label offset.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.LabelPosition(IssatisLab.Helpers.Chart.ChartistPieChartLabelPosition)">
+            <summary>
+            Sets the label position.
+            </summary>
+            <param name="position">The value of label position.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.LabelInterpolationFnc(System.String)">
+            <summary>
+            Sets interpolation function that allows you to intercept the value from the axis label
+            </summary>
+            <param name="labelInterpolationFnc">The value of label interpolation function.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.LabelDirection(IssatisLab.Helpers.Chart.ChartistPieChartLabelDirection)">
+            <summary>
+            Sets the label direction. The labels anchor will be positioned based on those settings as well as the fact if the labels are on the right or left side of the center of the chart. Usually explode is useful when labels are positioned far away from the center.
+            </summary>
+            <param name="direction">The value of label direction.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ReverseData(System.Boolean)">
+            <summary>
+            If true the whole data is reversed including labels, the series order as well as the whole series data arrays.
+            </summary>
+            <param name="value">The value of the reverse data.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ClassNameChartPie(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the pie chart class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ClassNameChartDonut(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the donut chart class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ClassNameSeries(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the series class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ClassNameSlicePie(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the pie slice class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ClassNameSliceDonut(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the donut slice class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ClassNameLabel(System.String)">
+            <summary>
+            Override the class names that get used to generate the SVG structure of the chart
+            </summary>
+            <param name="className">The value of the label class name.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.Plugins(System.String[])">
+            <summary>
+            Sets the plugins of the chart.
+            </summary>
+            <param name="plugins">The value of the plugins.</param>
+            <returns>Current component.</returns>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChart.ToJavaScriptObject">
+            <summary>
+            Returns string representation of the options.
+            </summary>
+            <returns>String Representation of the options.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistPieChartLabelPosition">
+            <summary>
+            Represents pie chart label position types
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Chart.ChartistPieChartLabelPosition.Inside">
+            <summary>
+            The labels will be placed on half the distance of the radius to the border of the Pie by respecting the 'labelOffset'
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Chart.ChartistPieChartLabelPosition.Outside">
+            <summary>
+            This will place the labels at the border of the pie
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Chart.ChartistPieChartLabelPosition.Center">
+            <summary>
+            Will place the labels in the absolute center point of the chart
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChartLabelPosition.ToString">
+            <summary>
+            Returns string representation of the type.
+            </summary>
+            <returns>String Representation of the type.</returns>
+        </member>
+        <member name="T:IssatisLab.Helpers.Chart.ChartistPieChartLabelDirection">
+            <summary>
+            Represents pie chart label direction
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Chart.ChartistPieChartLabelDirection.Neutral">
+            <summary>
+            Pie chart label direction neutral
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Chart.ChartistPieChartLabelDirection.Explode">
+            <summary>
+            Pie chart label direction explode. Useful when labels are positioned far away from the center.
+            </summary>
+        </member>
+        <member name="F:IssatisLab.Helpers.Chart.ChartistPieChartLabelDirection.Implode">
+            <summary>
+            Pie chart label direction implode
+            </summary>
+        </member>
+        <member name="M:IssatisLab.Helpers.Chart.ChartistPieChartLabelDirection.ToString">
+            <summary>
+            Returns string representation of the type.
+            </summary>
+            <returns>String Representation of the type.</returns>
+        </member>
+    </members>
+</doc>

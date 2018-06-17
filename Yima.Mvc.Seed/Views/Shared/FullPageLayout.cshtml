@@ -1,0 +1,286 @@
+﻿@*
+    [HTML MarkUp Structure]
+
+    Project:	Yima Admin App
+    Version:	1.0.1
+    Last change:	06/06/16 [Changelog: (http://www.IssatisLab.com)]
+    Implemented By:	IssatisLab (http://www.IssatisLab.com)
+
+
+    [Table of contents]
+
+    1. Meta Tags
+    2. Css References
+    3. Sidebar Menu
+    4. Sidebar Form
+    5. Main Page Content
+        5.1. Page Header
+            5.1.1. BreadCrumb
+            5.1.2. Header Buttons
+        5.2. Page Navbar
+        5.3. Page Body
+    6. JavaScript References
+    7. Page Related Scripts
+*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @*
+        [1. Meta Tags]
+    *@
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="~/assets/img/favicon.png" type="image/x-icon">
+    @*
+        [2. Css References]
+    *@
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" type="text/css" id="link-bootstrap" />
+    <link rel="stylesheet" href="~/assets/css/animate.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/app.min.css" type="text/css" id="link-app" />
+    <link rel="stylesheet" href="~/assets/css/demo.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/pe-icon-7-stroke.css" type="text/css" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <div class="animsition">
+        @*
+            [3. Sidebar Menu]
+        *@
+        <div class="sidebar menu">
+            <div class="sidebar-header">
+                <div class="header-brand">
+                    <div class="brand-logo">
+                        <img src="~/assets/img/logo.png" alt="Yima - Admin Web App" />
+                    </div>
+                    <div class="brand-slogan">
+                        <div class="slogan-title">Your App Slogan</div>
+                    </div>
+                </div>
+                <div class="header-notification">
+                    <a class="notification" href="#">
+                        <i class="icon pe-7s-mail"></i>
+                        <span class="text">You've Got 3 New Mails!</span>
+                        <div class="more">
+                            <span class="more-text">Go to Inbox</span>
+                            <i class="more-icon pe-7s-right-arrow"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <ul class="menu">
+                    <li class="active open">
+                        <a>
+                            <i class="pe-7s-display1"></i>
+                            <span>Pages</span>
+                        </a>
+                        <ul>
+                            <li class="submenu-title">
+                                <span>‌Miscellaneous</span>
+                            </li>
+                            <li class="active">
+                                <a href=Blank.html>
+                                    <i class="pe-7s-browser"></i>
+                                    <span>Blank Page</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-footer">
+                <div class="footer-avatar">
+                    <img src="~/assets/img/avatars/andy.jpg" alt="Fabian Mellan Jr." />
+                </div>
+                <div class="footer-user">
+                    <a href="#">Fabian Mellan Jr.</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="links-logout">
+                        <i class="pe-7s-power"></i>
+                        <span>Sign Out</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        @*
+            [4. Sidebar Form]
+        *@
+        <div class="sidebar form collapsed">
+        </div>
+        @*
+            [5. Main Page Content]
+        *@
+        <div class="main-content">
+            @*
+                [5.1. Page Header]
+            *@
+            <div class="content-header">
+                @*
+                    [5.1.1. BreadCrumb]
+                *@
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="#">
+                            <i class="pe-7s-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="pe-7s-display1"></i>
+                            <span>Pages</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <i class="pe-7s-browser"></i>
+                        <span>Blank Page</span>
+                    </li>
+                </ul>
+                @*
+                    [5.1.2. Header Buttons]
+                *@
+                <ul class="header-actions">
+                    <li class="actions-stretch-menu" id="action-stretch-menu">
+                        <div class="icon"></div>
+                    </li>
+                    <li class="actions-notification">
+                        <a class="dropdown-toggle" data-toggle="dropdown" title="Mails" href="#">
+                            <i class="pe-7s-mail"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-arrow pull-right">
+                            <li>
+                                <div class="notification-header">
+                                    <div class="header-title">
+                                        Messages
+                                    </div>
+                                </div>
+                                <div class="notification-upperbody bg-danger">
+                                    <div class="widget bg-danger">
+                                        <div class="row">
+                                            <div class="col-lg-6 h-70 w-70 p-5 align-center">
+                                                <div>
+                                                    <img src="~/assets/img/avatars/andy.jpg" class="w-60 h-60" alt="Donald Tennyson">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 h-70 w-m-70 p-5 p-t-10">
+                                                <div class="">
+                                                    <strong class="f-13">
+                                                        Donald Tennyson
+                                                    </strong>
+                                                </div>
+                                                <div class="f-11">
+                                                    Senior Android Developer
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="notification-message">
+                                        <div class="message-title">
+                                            I'd like to add you to my professional network on LinkedIn.
+                                        </div>
+                                        <div class="message-time">
+                                            <i class="pe-7s-clock v-a-middle"></i>
+                                            1 day ago
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notification-lowerbody">
+                                    <div class="notification-message">
+                                        <div class="message-title">
+                                            I really appreciate all your help in getting the restaurant ready for opening night.
+                                        </div>
+                                        <div class="message-time">
+                                            <i class="pe-7s-clock v-a-middle"></i>
+                                            1 min ago
+                                        </div>
+                                    </div>
+                                    <div class="notification-message">
+                                        <div class="message-title">
+                                            I am a friend of Emily Little and she encouraged me to forward my resume to you.
+                                        </div>
+                                        <div class="message-time">
+                                            <i class="pe-7s-clock v-a-middle"></i>
+                                            2 hours ago
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notification-footer">
+                                    <a class="pull-left" href="">
+                                        <i class="pe-7s-angle-left-circle f-25"></i>
+                                    </a>
+                                    <a class="pull-right" href="">
+                                        <i class="pe-7s-angle-right-circle f-25"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="action-search">
+                        <a>
+                            <i class="pe-7s-search"></i>
+                        </a>
+                    </li>
+                    <li id="action-settings">
+                        <a>
+                            <i class="pe-7s-settings"></i>
+                        </a>
+                    </li>
+                    <li id="action-menu-collapse">
+                        <a>
+                            <i class="pe-7s-menu"></i>
+                        </a>
+                    </li>
+                    <li id="action-chat">
+                        <a>
+                            <i class="pe-7s-comment"></i>
+                        </a>
+                    </li>
+                    <li id="action-help">
+                        <a>
+                            <i class="pe-7s-help1"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            @*
+                [5.2. Page Navbar]
+            *@
+            <div class="content-nav">
+                <div class="navbar navbar-default content-nav-navbar">
+                    <div class="navbar-header">
+                        <a data-toggle="collapse" data-target="#navbar-collapse-2" class="navbar-toggle collapsed">
+                            <div class="icon"></div>
+                        </a>
+                        <a href="#" class="navbar-brand">@ViewBag.Title</a>
+                    </div>
+                </div>
+            </div>
+            @*
+                [5.3. Page Body]
+            *@
+            <div class="content-body body-full">
+                @RenderBody()
+            </div>
+        </div>
+        @*
+            [6. JavaScript References]
+        *@
+        <script src="~/assets/js/jquery.min.js"></script>
+        <script src="~/assets/js/bootstrap.min.js"></script>
+        <script src="~/assets/js/modernizr.custom.js"></script>
+        <script src="~/assets/js/lib/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="~/assets/js/lib/animsition/animsition.min.js"></script>
+        <script src="~/assets/js/main.js"></script>
+
+        @*
+            [7. Page Related Scripts]
+        *@
+        @RenderSection("Scripts", required: false)
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.Cidadao
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Editar</h2>
+
+
+@using (var f = Html.BootstrapBeginForm().Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin())
+{
+    @Html.AntiForgeryToken()
+    
+    <h4>Cidadao</h4>
+    <hr />
+        @Html.HiddenFor(model => model.cidadaoId)
+
+        @f.FormGroup().TextBoxFor(model => model.nome)
+        @f.FormGroup().TextBoxFor(model => model.email)
+        @f.FormGroup().TextBoxFor(model => model.telefone)
+		@f.FormGroup().Submit("Salvar")
+}
+
+<div>
+    @Html.ActionLink("Voltar", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

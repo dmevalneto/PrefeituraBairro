@@ -1,0 +1,30 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.OcorrenciaInterna
+
+@{
+    ViewBag.Title = "Editar Ocorrência";
+}
+
+
+@using (var f = Html.BootstrapBeginForm().Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.ocorrenciaInternaId)
+    @f.FormGroup().TextBoxFor(model => model.latitude)
+    @f.FormGroup().TextBoxFor(model => model.longitude)
+    @f.FormGroup().TextBoxFor(model => model.logradouro)
+    @f.FormGroup().TextBoxFor(model => model.numero)
+    @f.FormGroup().TextBoxFor(model => model.bairro)
+    @f.FormGroup().TextBoxFor(model => model.cep)
+    @f.FormGroup().TextBoxFor(model => model.cidade)
+    @f.FormGroup().TextBoxFor(model => model.estado)
+    @f.FormGroup().TextBoxFor(model => model.status)
+    @f.FormGroup().TextBoxFor(model => model.descricao)
+    @f.FormGroup().TextBoxFor(model => model.dataIniciado)
+    @f.FormGroup().TextBoxFor(model => model.dataAguardando)
+    @f.FormGroup().TextBoxFor(model => model.dataFinalizado)
+    @f.FormGroup().Submit("Save")
+}
+
+<div>
+    <h3>   @Html.ActionLink("Retornar", "Index") </h3>
+</div>

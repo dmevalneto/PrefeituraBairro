@@ -1,0 +1,28 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.SendCodeViewModel
+@{
+    ViewBag.Title = "Send";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (var f = Html.BootstrapBeginForm("SendCode", "Account", new { ReturnUrl = Model.ReturnUrl }, FormMethod.Post).Horizontal().Begin())
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("rememberMe", @Model.RememberMe)
+    <h4>Send verification code</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-8">
+            Select Two-Factor Authentication Provider:
+            @f.DropDownListFor(model => model.SelectedProvider, Model.Providers)
+            @f.Submit("Submit")
+        </div>
+    </div>
+}
+
+@section Scripts
+{
+    <script src="/assets/js/lib/validation/jquery.validate.min.js"></script>
+    <script src="/assets/js/lib/validation/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/assets/js/lib/validation/jquery.validate.defaults.js"></script>
+}

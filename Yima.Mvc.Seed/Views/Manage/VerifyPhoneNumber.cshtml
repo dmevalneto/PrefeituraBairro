@@ -1,0 +1,25 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.VerifyPhoneNumberViewModel
+@{
+    ViewBag.Title = "Verify Phone Number";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (var f = Html.BootstrapBeginForm("VerifyPhoneNumber", "Manage", FormMethod.Post).Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin())
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("phoneNumber", @Model.PhoneNumber)
+    <h4>Enter verification code</h4>
+    <h5>@ViewBag.Status</h5>
+    <hr />
+    @Html.ValidationSummary()
+    @f.FormGroup().TextBoxFor(m => m.Code)
+    @f.FormGroup().Submit("Submit")
+}
+
+@section Scripts
+{
+    <script src="/assets/js/lib/validation/jquery.validate.min.js"></script>
+    <script src="/assets/js/lib/validation/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/assets/js/lib/validation/jquery.validate.defaults.js"></script>
+}

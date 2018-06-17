@@ -1,0 +1,35 @@
+﻿@model IssatisLab.Yima.Mvc.Seed.Models.Funcionario
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (var f = Html.BootstrapBeginForm().Horizontal(BootstrapGridSize.Medium2, BootstrapGridSize.Medium10).Begin())
+{
+    @Html.AntiForgeryToken()
+
+    <h4>Funcionario</h4>
+    <hr />
+    @Html.HiddenFor(model => model.FuncionarioId)
+
+    @f.FormGroup().TextBoxFor(model => model.nome)
+    @f.FormGroup().TextBoxFor(model => model.sobrenome)
+    @f.FormGroup().TextBoxFor(model => model.salario)
+    @f.FormGroup().TextBoxFor(model => model.comissao)
+    @f.FormGroup().TextBoxFor(model => model.nascimento)
+    @f.FormGroup().TextBoxFor(model => model.cadastro)
+    @f.FormGroup().TextBoxFor(model => model.email)
+    @Html.DropDownList("TipoDocumentoId");
+    @f.FormGroup().Submit("Save")
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

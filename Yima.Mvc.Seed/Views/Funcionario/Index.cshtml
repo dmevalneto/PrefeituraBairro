@@ -1,0 +1,75 @@
+﻿@model IEnumerable<IssatisLab.Yima.Mvc.Seed.Models.Funcionario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoDocumento.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sobrenome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.comissao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nascimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cadastro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoDocumento.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sobrenome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.salario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.comissao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nascimento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cadastro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.FuncionarioId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.FuncionarioId }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.FuncionarioId })
+        </td>
+    </tr>
+}
+
+</table>
